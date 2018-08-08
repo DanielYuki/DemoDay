@@ -1,0 +1,25 @@
+section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    border-top: 5px solid  rgba(255, 255, 255, 0.1);
+    border-bottom: 5px solid rgba(255, 255, 255, 0.1);
+}
+
+section>article{
+    margin: 10px 5vh;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    min-width: 300px;
+
+}
+.botao{
+    margin: 5px;
+    border: 2px solid lightskyblue;
+    border-radius: 50px;
+    background-color: white;
+}

@@ -1,0 +1,7 @@
+body{
+    background-image: url(../imagens/background.jpg);
+    background-position: center center;
+    background-repeat: repeat;
+    margin: 0;
+    font-family: sans-serif;
+}
