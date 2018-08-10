@@ -43,6 +43,7 @@
 
 .mudar{
     background-color: #f1f1f1;
+    border-radius: 5px 5px 0 0;
 }
 
 .mudar .barra1{
@@ -70,7 +71,7 @@
     display: none;
     position: absolute;
     right: 0;
-    background-color: #f9f9f9;
+    background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -87,8 +88,31 @@
     background-color: #f1f1f1;
 }
 
+.conteudoInformacao{
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
 .opcoesMenu{
     display: block;
-    right: 0;
+    right: 5px;
     position: fixed;
+    font-size: 30px;
+}
+
+.opcoesMenuInfo{
+    display: block;
+    right: 10px;
+    background-color: #e4e4e4;
+    font-size: 20px;
+}
+/* DROP MENU STYLE */
+.conteudoMenu ul{
+    list-style: none;
+    padding: 10px;
 }
