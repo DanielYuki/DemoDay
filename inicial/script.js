@@ -1,20 +1,15 @@
-let expand = document.querySelector(".topico");
-let butaoFechar = document.querySelector(".close");
-let expandOtherCase = document.querySelector("article")
-let expandirVoltar = true;
+let modal = document.getElementById('meuModal');
+let img = document.getElementById('materias');
+let modalImg = document.getElementById("img01");
 
-expand.onclick = () => {
-    if(expandirVoltar === true){
-    expandOtherCase.classList.add("expande");
-    butaoFechar.classList.add("desExpande");
-    expandirVoltar = false;
-    }
-};
+img.onclick = function () {
+    modal.style.display = "block";
+    modalImg.src = img01.src;
+    span.style.display = "block";
+}
 
-butaoFechar.onclick = () =>{
-    if(expandirVoltar === false){
-        expandOtherCase.classList.remove("expande");
-        butaoFechar.classList.remove("desExpande");
-        expandirVoltar = true;
-    }
+let span = document.getElementsByClassName("close")[0];
+
+span.onclick = function () {
+    modal.style.display = "none";
 }
