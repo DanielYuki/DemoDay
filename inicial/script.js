@@ -15,3 +15,9 @@ span.onclick = function () {
     modal.style.display = "none";
 }
 // -----
+
+let menuHamburguer = document.querySelector(".hamburguer");
+
+menuHamburguer.onclick = function () {
+    menuHamburguer.classList.toggle("mudar");
+}

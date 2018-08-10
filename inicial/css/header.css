@@ -31,10 +31,11 @@
     margin: 5px 0;
     width: 35px;
     background-color: rgb(223, 223, 223);
+    transition: 0.4s;
 }
 
 .mudar .barra1{
-    transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-8px, 6px);
 }
 
 .mudar .barra2{
@@ -42,5 +43,5 @@
 }
 
 .mudar .barra3{
-    transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -7px);
 }
