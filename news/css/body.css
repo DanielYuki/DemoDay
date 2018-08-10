@@ -11,4 +11,5 @@ body{
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    min-width: 250px;
 }
