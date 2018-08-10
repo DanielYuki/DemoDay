@@ -1,3 +1,4 @@
+// MODAL IMAGENS
 let modal = document.getElementById('meuModal');
 let img = document.getElementById('materias');
 let modalImg = document.getElementById("img01");
@@ -13,3 +14,4 @@ let span = document.getElementsByClassName("close")[0];
 span.onclick = function () {
     modal.style.display = "none";
 }
+// -----

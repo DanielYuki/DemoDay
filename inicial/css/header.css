@@ -26,21 +26,21 @@
     margin: 0;
 }
 
-.hamburguer{
-    transition-duration: 0.5s;
-}
-
-.hamburguer:hover{
-    transform: scale(1.2);
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.barra{
+.barra1, .barra2, .barra3{
     height: 5px;
-    margin: 2px;
+    margin: 5px 0;
     width: 35px;
-    border: solid 1.5px rgba(0, 3, 37, 0.432);
-    background-color: rgb(255, 255, 255);
-    border-radius: 7px;
+    background-color: rgb(223, 223, 223);
+}
+
+.mudar .barra1{
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.mudar .barra2{
+    opacity: 0;
+}
+
+.mudar .barra3{
+    transform: rotate(45deg) translate(-8px, -8px);
 }
