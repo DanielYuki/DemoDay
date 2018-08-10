@@ -26,6 +26,13 @@
     margin: 0;
 }
 
+.hamburguer{
+    padding: 10px;
+    border: none;
+    margin: 0;
+}
+
+/* PARTE DA NAV */
 .barra1, .barra2, .barra3{
     height: 5px;
     margin: 5px 0;
@@ -34,8 +41,13 @@
     transition: 0.4s;
 }
 
+.mudar{
+    background-color: #f1f1f1;
+}
+
 .mudar .barra1{
     transform: rotate(-45deg) translate(-8px, 6px);
+    background-color: #0F0F11;
 }
 
 .mudar .barra2{
@@ -44,4 +56,39 @@
 
 .mudar .barra3{
     transform: rotate(45deg) translate(-8px, -7px);
+    background-color: #0F0F11;
+}
+
+
+/* DROPMENU */
+.dropMenu{
+    position: relative;
+    display: inline-block;
+}
+
+.conteudoMenu{
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.conteudoMenu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.conteudoMenu a:hover {
+    background-color: #f1f1f1;
+}
+
+.opcoesMenu{
+    display: block;
+    right: 0;
+    position: fixed;
 }

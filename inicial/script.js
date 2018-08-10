@@ -17,7 +17,9 @@ span.onclick = function () {
 // -----
 
 let menuHamburguer = document.querySelector(".hamburguer");
+let menuContent = document.querySelector(".conteudoMenu");
 
-menuHamburguer.onclick = function () {
+menuHamburguer.onclick = function() {
     menuHamburguer.classList.toggle("mudar");
+    menuContent.classList.toggle("opcoesMenu");
 }
