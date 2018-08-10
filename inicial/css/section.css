@@ -42,7 +42,7 @@ section p{
 
 #meuModal{
     height: 100vh;
-    background: linear-gradient(to bottom ,black, black,rgb(27, 27, 27));
+    background: linear-gradient(to bottom ,black, rgb(9, 5, 27),rgb(19, 11, 32));
     color: rgb(173, 173, 173);
 }
 
