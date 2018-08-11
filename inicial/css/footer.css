@@ -78,14 +78,14 @@ footer input{
 }
 
 .redesSociais img{
-    margin: 30px 5px;
-    width: 12vw;
-    height: 12vw;
+    margin: 20px 15px;
+    width: 4vw;
+    height: 4vw;
 }
 
 .outrasInfos{
     color: rgb(134, 134, 134);
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -94,12 +94,12 @@ footer input{
 }
 
 .outrasInfos h6{
-    margin: 10px;
+    margin: 5px 10px;
     font-size: 17px;
 }
 
 .copyright{
     color: rgba(211, 211, 211, 0.39);
     font-size: 12px;
-    margin: 20px;
+    margin: 15px 20px 20px 20px;
 }
