@@ -7,6 +7,25 @@ section{
     overflow-x: hidden;
 }
 
+.parallax1{
+    background-image: url(../images/solarsystem.jpg);
+    height: 250px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2{
+    background-image: url(../images/jupiter.jpg);
+    height: 250px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 #titulo{
