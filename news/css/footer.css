@@ -4,17 +4,18 @@
     align-items: center;
     overflow-x: hidden;
     width: 100vw;
-    
+    height: 41vh;
 }
 
 .cadastro{
+    width: 35%;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.068);
-    margin: 10px 20px 12vh;
+    margin: 60px 10px 10px 10px;
     border-radius: 20px;
     box-shadow: 3px 3px rgba(0, 0, 0, 0.062);
 }
@@ -70,8 +71,11 @@ footer input{
     background-color: #0F0F11;
     justify-content: center;
     align-items: center;
+    align-content: center;
+    margin: 0 0 0 30.5%;
     flex-direction: column;
     display: flex;
+    width: 38.8%;
 }
 
 .redesSociais{
@@ -80,14 +84,14 @@ footer input{
 }
 
 .redesSociais img{
-    margin: 30px 5px;
-    width: 32px;
-    height: 32px;
+    margin: 20px 15px;
+    width: 4vw;
+    height: 4vw;
 }
 
 .outrasInfos{
     color: rgb(134, 134, 134);
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -96,12 +100,12 @@ footer input{
 }
 
 .outrasInfos h6{
-    margin: 10px;
+    margin: 5px 10px;
     font-size: 17px;
 }
 
 .copyright{
     color: rgba(211, 211, 211, 0.39);
     font-size: 12px;
-    margin: 20px;
+    margin: 15px 20px 20px 20px;
 }
