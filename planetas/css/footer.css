@@ -75,10 +75,14 @@ footer input{
 .redesSociais{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 20px 0;
 }
 
 .redesSociais img{
-    margin: 20px 15px;
+    min-width: 40px;
+    min-height: 40px;
     width: 4vw;
     height: 4vw;
 }

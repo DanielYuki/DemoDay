@@ -2,20 +2,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow-x: hidden;
-    width: 100vw;
-    height: 41vh;
 }
 
 .cadastro{
-    width: 35%;
+    width: 90%;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.068);
-    margin: 60px 10px 10px 10px;
+    margin: 10px;
     border-radius: 20px;
     box-shadow: 3px 3px rgba(0, 0, 0, 0.062);
 }
@@ -71,20 +68,21 @@ footer input{
     background-color: #0F0F11;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    margin: 0 0 0 30.5%;
     flex-direction: column;
     display: flex;
-    width: 38.8%;
 }
 
 .redesSociais{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 20px 0;
 }
 
 .redesSociais img{
-    margin: 20px 15px;
+    min-width: 40px;
+    min-height: 40px;
     width: 4vw;
     height: 4vw;
 }
