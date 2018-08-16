@@ -1,0 +1,117 @@
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    width: 100vw;
+    
+}
+
+.parallax2{
+    background-image: url(../images/netuno2.jpg);
+    height: 300px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cadastro{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.068);
+    margin: 10px 20px 12vh;
+    border-radius: 20px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.062);
+}
+
+.cadastro h3{
+    margin: 5px;
+    color: antiquewhite;
+    letter-spacing: -2px;
+    font-size: 25px;
+    text-align: center;
+}
+
+footer input{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 10px 0;
+    border-bottom: 2px solid black;
+    padding: 0px;
+    font-size: 20px;    
+}
+
+#mandarCadastro{
+    cursor: pointer;
+    outline: none;
+    margin: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px 20px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.103);
+}
+
+#mandarCadastro:hover{
+    border: 2px solid rgb(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.699);
+}
+
+#mandarCadastro:active{
+    background-color: rgba(255, 255, 255, 0.521);
+    color: rgb(0, 0, 0);
+    border: solid 2px rgba(0, 0, 255, 0.123);
+}
+
+.finalFooter{
+    background-color: #0F0F11;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.redesSociais{
+    display: flex;
+    flex-direction: row;
+}
+
+.redesSociais img{
+    margin: 30px 5px;
+    width: 32px;
+    height: 32px;
+}
+
+.outrasInfos{
+    color: rgb(134, 134, 134);
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.outrasInfos h6{
+    margin: 10px;
+    font-size: 17px;
+}
+
+.copyright{
+    color: rgba(211, 211, 211, 0.39);
+    font-size: 12px;
+    margin: 20px;
+}

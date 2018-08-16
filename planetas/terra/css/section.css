@@ -1,0 +1,83 @@
+section{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.gif{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+h2{
+    color: rgb(42, 199, 219);
+    text-align: center;
+    font-size: 20pt;
+}
+
+.planetagif{
+  width: 150px;
+  height: 150px;
+  margin: 10px 0px;
+}
+
+.fichatecnica>p{
+    width: 90%;
+}
+
+.fichatecnica{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.205);
+    margin: 10px 12vw;
+    color: rgb(173, 164, 164);
+
+}
+
+.parallax1{
+    background-image: url(../images/terra1.jpg);
+    height: 300px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+article{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+    background-color: rgba(255, 255, 255, 0.205);
+    /* margin: 10px 0vw; */
+    color: rgb(173, 164, 164);
+}
+h3{
+    color: rgb(42, 199, 219);
+    font-size: 20pt;    
+}
+h4{
+    color: rgb(42, 199, 219);
+    font-size: 20pt;
+}
+h5{
+    color: rgb(42, 199, 219);
+    font-size: 20pt;    
+}
+h6{
+    color: rgb(42, 199, 219);
+    font-size: 20pt;    
+}
+
+.pictures{
+    margin: 10px 1vh;
+}
