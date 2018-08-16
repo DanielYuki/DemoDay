@@ -46,7 +46,13 @@ section p{
     color: rgb(173, 173, 173);
 }
 
-#materias {
+#meuModal2{
+    height: 100vh;
+    background: linear-gradient(to bottom ,black, rgb(9, 5, 27),rgb(19, 11, 32));
+    color: rgb(173, 173, 173);
+}
+
+.materias {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
