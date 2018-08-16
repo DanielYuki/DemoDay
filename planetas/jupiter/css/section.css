@@ -38,7 +38,7 @@ h2{
 }
 
 .parallax1{
-    background-image: url(../images/jupiter2.jpg);
+    background-image: url(../../../imgSrc/jupiter2.jpg);
     height: 300px;
     width: 100%;
     background-attachment: fixed;
@@ -46,6 +46,17 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.parallax2{
+    background-image: url(../../../imgSrc/solarsystem.jpg);
+    height: 300px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 article{
     text-align: center;
     display: flex;
