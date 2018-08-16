@@ -8,7 +8,7 @@ section{
 }
 
 .parallax1{
-    background-image: url(../images/solarsystem.jpg);
+    background-image: url(../../imgSrc/solarsystem.jpg);
     height: 250px;
     width: 100%;
     background-attachment: fixed;
@@ -17,7 +17,7 @@ section{
     background-size: cover;
 }
 .parallax2{
-    background-image: url(../images/jupiter.jpg);
+    background-image: url(../../imgSrc/jupiter.jpg);
     height: 250px;
     width: 100%;
     background-attachment: fixed;
