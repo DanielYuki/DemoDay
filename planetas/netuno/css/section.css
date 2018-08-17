@@ -52,6 +52,17 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.parallax2{
+    background-image: url(../images/netuno2.jpg);
+    height: 300px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 article{
     text-align: center;
     display: flex;
