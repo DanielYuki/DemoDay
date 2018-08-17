@@ -31,7 +31,6 @@ h2{
 }
 
 .fichatecnica{
-    text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -46,7 +45,7 @@ h2{
 .parallax1{
     background-image: url(../images/jupiter2.jpg);
     height: 300px;
-    width: 100%;
+    width: 100vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,6 +86,12 @@ h5{
 h6{
     color: rgb(42, 199, 219);
     font-size: 20pt;    
+}
+
+span{
+    color: black;
+    font-size: 12pt;
+    font-weight: bold;
 }
 
 .pictures{
