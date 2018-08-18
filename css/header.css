@@ -10,6 +10,7 @@
     width: 100vw;
     height: 55px;
     position: fixed;
+    z-index: 2;
 }
 #spacePyxis{
     text-decoration: none;

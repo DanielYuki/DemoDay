@@ -4,7 +4,6 @@
     align-items: center;
     overflow-x: hidden;
     width: 100vw;
-    
 }
 
 .parallax2{
@@ -24,7 +23,7 @@
     align-items: center;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.068);
-    margin: 10px 20px 12vh;
+    margin: 10px 20px;
     border-radius: 20px;
     box-shadow: 3px 3px rgba(0, 0, 0, 0.062);
 }
@@ -87,12 +86,18 @@ footer input{
 .redesSociais{
     display: flex;
     flex-direction: row;
+    width: 50%;
+    justify-content: space-evenly;
 }
 
 .redesSociais img{
     margin: 30px 5px;
-    width: 32px;
-    height: 32px;
+    min-width: 36px;
+    min-height: 36px;
+    width: 4vw;
+    height: 4vw;
+    max-width: 64px;
+    max-height: 64px;
 }
 
 .outrasInfos{

@@ -28,7 +28,7 @@
   height: 100%;
   -webkit-background-size: cover;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
 }
 .swiper-slide .planet-img {
   font-size: 41px;

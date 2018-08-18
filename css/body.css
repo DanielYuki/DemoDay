@@ -3,13 +3,15 @@ body{
     background-position: center center;
     background-repeat: repeat;
     margin: 0;
-    width: 100%;
+    border: 0;
+    width: 100vw;
     height: 100%;
     font-family: sans-serif;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 img {
     max-width: 100%;
