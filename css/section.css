@@ -10,6 +10,7 @@ section{
     background-color: rgba(255, 255, 255, 0.055);
     border-radius: 20px;
     overflow: hidden;
+    padding: 15px ;
 }
 
 article{
@@ -17,26 +18,28 @@ article{
     border: 2px solid white;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.1);
-    width: 80vw;
-    height: 20vh;
+    width: 90vw;
+    height: 15vh;
     overflow: hidden;
+    box-shadow: 4px 5px rgba(0, 0, 0, 0.11);
 }
 
 section h2{
-    margin: 10px;
+    margin: 10px 0 20px 0;
     color: white;
-    font-size: 30px;
+    font-size: 9vw;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.116);
 }
 
 section h3{
     color: white;
     margin: 5px 0;
-    font-size: 22px;
+    font-size: 7vw;
 }
 
 section p{
     margin: 0;
-    font-size: 15px;
+    font-size: 5vw;
     color: rgb(172, 172, 172);
 }
 
@@ -53,6 +56,11 @@ section p{
 }
 
 .materias {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
@@ -71,6 +79,33 @@ section p{
     height: 100%;
     overflow: auto;
     background-color: rgb(0,0,0); 
+}
+
+.modal h3{
+    margin: 15px;
+    font-size: 8vw;
+}
+
+.descricao{
+    margin: 0 10px;
+    width: 90%;
+    font-size: 6vw;
+}
+
+.descricao p{
+    margin: 10px 0;
+}
+
+.subir{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 10vw;
+    color: white;
+    text-decoration: none;
+    bottom: 0;
+    background-color: rgb(4, 0, 20);
+    padding: 10px;
 }
 
 /* conteudo modal */
@@ -96,13 +131,17 @@ section p{
 .close {
     display: none;
     position: absolute;
-    top: 15px;
-    right: 35px;
+    top: 10px;
+    right: 25px;
     color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
-
+    background-color: #bbb;
+    padding: 10px;
+    border-radius: 100%;
+    width: 36px;
+    height: 36px;
 }
 
 .close:hover,
