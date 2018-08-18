@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/section.css">
     <link rel="stylesheet" href="css/footer.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
@@ -60,8 +62,64 @@
     </header>
     <!-- AREA DOS PLANETAS -->
     <div id="planetas">
-        <h2>Navegue pelos platenas do sistema solar!</h2>
-        <img src="http://via.placeholder.com/200x200" alt="">
+    <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="parallax-bg" style="background-image:url(imgSrc/bgslider.jpg)" data-swiper-parallax="-23%"></div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide planet">
+            <div class="planet-img" data-swiper-parallax="-300px">
+                <img src="imgSrc/mercurio.gif" alt="Mércurio">
+            </div>
+            <div class="planet-name" data-swiper-parallax="-200px">Mércurio</div>
+          </div>
+          <div class="swiper-slide planet">
+            <div class="planet-img" data-swiper-parallax="-300px">
+                <img src="imgSrc/venus.gif" alt="Vênus">
+            </div>
+            <div class="planet-name" data-swiper-parallax="-200px">Vênus</div>
+          </div>
+          <div class="swiper-slide planet">
+            <div class="planet-img" data-swiper-parallax="-300px">
+                <img src="imgSrc/terra.gif" alt="Terra">
+            </div>
+            <div class="planet-name" data-swiper-parallax="-200px">Terra</div>
+          </div>
+          <div class="swiper-slide planet">
+            <div class="planet-img" data-swiper-parallax="-300px">
+                <img src="imgSrc/marte.gif" alt="Marte">
+            </div>
+            <div class="planet-name" data-swiper-parallax="-200px">Marte</div>
+          </div>
+          <div class="swiper-slide planet">
+            <div class="planet-img" data-swiper-parallax="-300px">
+                <img src="imgSrc/jupiter.gif" alt="Júpiter">
+            </div>
+            <div class="planet-name" data-swiper-parallax="-200px">Júpiter</div>
+          </div>
+          <div class="swiper-slide planet">
+            <div class="planet-img" data-swiper-parallax="-300px">
+                <img src="imgSrc/saturno.gif" alt="Saturno">
+            </div>
+            <div class="planet-name" data-swiper-parallax="-200px">Saturno</div>
+          </div>
+          <div class="swiper-slide planet">
+            <div class="planet-img" data-swiper-parallax="-300px">
+                <img src="imgSrc/urano.png" alt="Urano">
+            </div>
+            <div class="planet-name" data-swiper-parallax="-200px">Urano</div>
+          </div>
+          <div class="swiper-slide planet">
+            <div class="planet-img" data-swiper-parallax="-300px">
+                <img src="imgSrc/netuno.gif" alt="Netuno">
+            </div>
+            <div class="planet-name" data-swiper-parallax="-200px">Netuno</div>
+          </div>
+        </div>
+
+        <!-- Adiciona Navegação slider -->
+        <div class="swiper-button-prev swiper-button-white"></div>
+        <div class="swiper-button-next swiper-button-white"></div>
+      </div>
 
     </div>
     <!-- VAI TER "TOP TOPICS", ONDE VAI TER UM RESUMO DE NOTICIAS -->
@@ -155,6 +213,26 @@
             <h6 class="copyright">&copy;2018 Gambiarra a Gente Aceita</h6>
         </div>
     </footer>
+
+    <!-- Swiper JS (Não mudar para o topo com defer)-->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Inicializa Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 'auto',
+        speed: 600,
+        parallax: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        });
+    </script>
 </body>
 
 </html>
