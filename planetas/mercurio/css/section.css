@@ -43,7 +43,7 @@ h2{
 }
 
 .parallax1{
-    background-image: url(../images/mercurio1.jpg);
+    background-image: url(../../../imgSrc/mercurio1.jpg);
     height: 300px;
     width: 100%;
     background-attachment: fixed;
@@ -53,7 +53,7 @@ h2{
 }
 
 .parallax2{
-    background-image: url(../images/mercurio2.jpg);
+    background-image: url(../../../imgSrc/mercurio2.jpg);
     height: 300px;
     width: 100%;
     background-attachment: fixed;

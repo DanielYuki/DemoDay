@@ -43,7 +43,7 @@ h2{
 }
 
 .parallax1{
-    background-image: url(../images/venus1.jpg);
+    background-image: url(../../../imgSrc/venus1.jpg);
     height: 300px;
     width: 100%;
     background-attachment: fixed;
@@ -53,7 +53,7 @@ h2{
 }
 
 .parallax2{
-    background-image: url(../images/venus2.jpg);
+    background-image: url(../../../imgSrc/venus2.jpg);
     height: 300px;
     width: 100%;
     background-attachment: fixed;

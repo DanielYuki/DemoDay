@@ -43,7 +43,7 @@ h2{
 }
 
 .parallax1{
-    background-image: url(../images/netuno1.jpg);
+    background-image: url(../../../imgSrc/netuno1.jpg);
     height: 300px;
     width: 100%;
     background-attachment: fixed;
@@ -53,7 +53,7 @@ h2{
 }
 
 .parallax2{
-    background-image: url(../images/netuno2.jpg);
+    background-image: url(../../../imgSrc/netuno2.jpg);
     height: 300px;
     width: 100%;
     background-attachment: fixed;

@@ -43,7 +43,7 @@ h2{
 }
 
 .parallax1{
-    background-image: url(../images/mars1.jpg);
+    background-image: url(../../../imgSrc/mars1.jpg);
     height: 300px;
     width: 100%;
     background-attachment: fixed;
@@ -53,7 +53,7 @@ h2{
 }
 
 .parallax2{
-    background-image: url(../images/mars2.jpg);
+    background-image: url(../../../imgSrc/mars2.jpg);
     height: 300px;
     width: 100%;
     background-attachment: fixed;

@@ -46,6 +46,7 @@ section p{
     height: 100vh;
     background: linear-gradient(to bottom ,black, rgb(9, 5, 27),rgb(19, 11, 32));
     color: rgb(173, 173, 173);
+    z-index: 3;
 }
 
 #meuModal2{

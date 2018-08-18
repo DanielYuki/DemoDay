@@ -43,7 +43,7 @@ h2{
 }
 
 .parallax1{
-    background-image: url(../images/jupiter2.jpg);
+    background-image: url(../../../imgSrc/jupiter2.jpg);
     height: 300px;
     width: 100vw;
     background-attachment: fixed;
@@ -53,7 +53,7 @@ h2{
 }
 
 .parallax2{
-    background-image: url(../images/jupiter.jpg);
+    background-image: url(../../../imgSrc/jupiter.jpg);
     height: 300px;
     width: 100%;
     background-attachment: fixed;
