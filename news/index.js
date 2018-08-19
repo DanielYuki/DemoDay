@@ -26,7 +26,7 @@ function carousel() {
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}    
     x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 5000);}
+    setTimeout(carousel, 7000);}
 // ___________SLIDE________________
 
 // MODAL IMAGENS 1

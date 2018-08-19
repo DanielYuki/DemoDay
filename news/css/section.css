@@ -41,6 +41,8 @@ section{
     background-position-y: 25%;
     background-repeat: no-repeat;
     background-size: 150%;
+    animation-name: slide;
+    animation-duration: 7s;    
 }
 
 .mySlides:nth-child(2){
@@ -54,6 +56,17 @@ section{
     background-position-y: 70%;
     background-repeat: no-repeat;
     background-size: 150%;
+    animation-name: slide;
+    animation-duration: 7s;
+}
+
+@keyframes slide {
+    0% {opacity: 0;}
+    20% {opacity:1;}
+    40% {opacity: 1;}
+    60% {opacity: 1;}
+    80% {opacity: 1;}
+    100% {opacity: 0;}
 }
 /* ______________SLIDE___________ */
 
