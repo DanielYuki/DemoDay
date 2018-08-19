@@ -31,13 +31,14 @@ section{
 }
 
 .mySlides:nth-child(1){
-    background-image: url(../images/Marcos-Pontes.jpg);
+    background-image: url(../images/Marcos-Pontes-render.png);
     display: none;
     min-width: 250px;
     min-height: 250px;
     width: 100vw;
     height: 288px;
-    background-position: center;
+    background-position-x: center;
+    background-position-y: 25%;
     background-repeat: no-repeat;
     background-size: 150%;
 }
@@ -48,8 +49,9 @@ section{
     min-width: 250px;
     min-height: 250px;
     width: 100vw;
-    height: 60vh;
-    background-position: center;
+    height: 288px;
+    background-position-x: center;
+    background-position-y: 70%;
     background-repeat: no-repeat;
     background-size: 150%;
 }
