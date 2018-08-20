@@ -107,7 +107,7 @@ article{
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.205);
     margin: 10px 12vw;
-    color: rgb(173, 164, 164);
+    color: rgb(196, 196, 196);
 
 
 }
@@ -200,6 +200,7 @@ article{
 .close{
     margin-top: 75px;
 }
+
 /*gambiarra da net*/
 @media only screen and (max-width: 700px){
     .conteudoModal {

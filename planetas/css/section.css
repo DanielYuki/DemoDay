@@ -43,3 +43,10 @@ article img{
     height: 40vh;
     width: 40vh;
 }
+
+.anel{
+    border: none;
+    border-radius: none;
+    width: 300px;
+    height: 120px;
+}
