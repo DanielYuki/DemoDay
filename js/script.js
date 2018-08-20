@@ -51,9 +51,6 @@ menuInfo.onclick = function() {
 // MODAL FATOS
 let modalFatos = document.querySelector(".didUknow");
 
-// VERIFICADOR GERAL
-let ativo = false;
-
 // PARTE PLANETAS GERAL
 let mercurio = document.querySelector("#mercurio");
 let venus = document.querySelector("#venus");
@@ -74,107 +71,112 @@ urano.onclick = apareceUrano;
 netuno.onclick = apareceNetuno;
 
 // FUNÇAÕ PRA APARECER MODAL
+let ativo = false
+
+function remover() {
+    document.querySelector(".mercury").style.display = ("none");
+    document.querySelector(".venus").style.display = ("none");
+    document.querySelector(".earth").style.display = ("none");
+    document.querySelector(".mars").style.display = ("none");
+    document.querySelector(".jupiter").style.display = ("none");
+    document.querySelector(".saturn").style.display = ("none");
+    document.querySelector(".uranus").style.display = ("none");
+    document.querySelector(".neptune").style.display = ("none");
+    modalFatos.classList.remove("aparece");
+    ativo = false;
+}
 
 function apareceMercurio() {
-    modalFatos.classList.toggle("aparece");
-    modalFatos.classList.toggle("didUknow");
-    if (document.querySelector(".mercury").style.display == ("flex")) {
-        document.querySelector(".mercury").style.display = ("none");
-        ativo = false;
-    }
-    else {
+    if(ativo == false){
+        modalFatos.classList.add("aparece");
         document.querySelector(".mercury").style.display = ("flex");
         ativo = true;
     }
+    else{
+        remover();
+    }
+    // modalFatos.classList.toggle("aparece");
+    // if (document.querySelector(".mercury").style.display == ("flex")) {
+    //     document.querySelector(".mercury").style.display = ("none");
+    // }
+    // else {
+    //     document.querySelector(".mercury").style.display = ("flex");
+    // }
 }
 
 function apareceVenus() {
-    modalFatos.classList.toggle("aparece");
-    modalFatos.classList.toggle("didUknow");
-    if (document.querySelector(".venus").style.display == ("flex")) {
-        document.querySelector(".venus").style.display = ("none");
-        ativo = false;
-    }
-    else {
+    if(ativo == false){
+        modalFatos.classList.add("aparece");
         document.querySelector(".venus").style.display = ("flex");
         ativo = true;
+    }
+    else{
+        remover();
     }
 }
 
 function apareceTerra() {
-    modalFatos.classList.toggle("aparece");
-    modalFatos.classList.toggle("didUknow");
-    if (document.querySelector(".earth").style.display == ("flex")) {
-        document.querySelector(".earth").style.display = ("none");
-        ativo = false;
-    }
-    else {
+    if(ativo == false){
+        modalFatos.classList.add("aparece");
         document.querySelector(".earth").style.display = ("flex");
         ativo = true;
+    }
+    else{
+        remover();
     }
 }
 
 function apareceMarte() {
-    modalFatos.classList.toggle("aparece");
-    modalFatos.classList.toggle("didUknow");
-    if (document.querySelector(".mars").style.display == ("flex")) {
-        document.querySelector(".mars").style.display = ("none");
-        ativo = false;
-    }
-    else {
+    if(ativo == false){
+        modalFatos.classList.add("aparece");
         document.querySelector(".mars").style.display = ("flex");
         ativo = true;
+    }
+    else{
+        remover();
     }
 }
 
 function apareceJupiter() {
-    modalFatos.classList.toggle("aparece");
-    modalFatos.classList.toggle("didUknow");
-    if (document.querySelector(".jupiter").style.display == ("flex")) {
-        document.querySelector(".jupiter").style.display = ("none");
-        ativo = false;
-    }
-    else {
+    if(ativo == false){
+        modalFatos.classList.add("aparece");
         document.querySelector(".jupiter").style.display = ("flex");
         ativo = true;
+    }
+    else{
+        remover();
     }
 }
 
 function apareceSaturno() {
-    modalFatos.classList.toggle("aparece");
-    modalFatos.classList.toggle("didUknow");
-    if (document.querySelector(".saturn").style.display == ("flex")) {
-        document.querySelector(".saturn").style.display = ("none");
-        ativo = false;
-    }
-    else {
+    if(ativo == false){
+        modalFatos.classList.add("aparece");
         document.querySelector(".saturn").style.display = ("flex");
         ativo = true;
+    }
+    else{
+        remover();
     }
 }
 
 function apareceUrano() {
-    modalFatos.classList.toggle("aparece");
-    modalFatos.classList.toggle("didUknow");
-    if (document.querySelector(".uranus").style.display == ("flex")) {
-        document.querySelector(".uranus").style.display = ("none");
-        ativo = false;
-    }
-    else {
+    if(ativo == false){
+        modalFatos.classList.add("aparece");
         document.querySelector(".uranus").style.display = ("flex");
         ativo = true;
+    }
+    else{
+        remover();
     }
 }
 
 function apareceNetuno() {
-    modalFatos.classList.toggle("aparece");
-    modalFatos.classList.toggle("didUknow");
-    if (document.querySelector(".neptune").style.display == ("flex")) {
-        document.querySelector(".neptune").style.display = ("none");
-        ativo = false;
-    }
-    else {
+    if(ativo == false){
+        modalFatos.classList.add("aparece");
         document.querySelector(".neptune").style.display = ("flex");
         ativo = true;
+    }
+    else{
+        remover();
     }
 }
