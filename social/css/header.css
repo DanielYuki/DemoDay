@@ -1,0 +1,123 @@
+.navsinha{
+    top: 0;
+    left: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #0F0F11;
+    width: 100vw;
+    height: 55px;
+    position: fixed;
+    z-index: 2;
+}
+#spacePyxis{
+    text-decoration: none;
+}
+
+.nomeIcone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.nomeIcone h1{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 24px;
+    margin: 0;
+}
+
+.hamburguer{
+    padding: 5px;
+    border: none;
+    margin-right: 5px;
+}
+
+/* PARTE DA NAV */
+.barra1, .barra2, .barra3{
+    height: 5px;
+    margin: 5px 0;
+    width: 35px;
+    background-color: rgb(223, 223, 223);
+    transition: 0.4s;
+}
+
+.mudar{
+    background-color: #f1f1f1;
+    border-radius: 5px 5px 0 0;
+}
+
+.mudar .barra1{
+    transform: rotate(-45deg) translate(-8px, 6px);
+    background-color: #0F0F11;
+}
+
+.mudar .barra2{
+    opacity: 0;
+}
+
+.mudar .barra3{
+    transform: rotate(45deg) translate(-8px, -7px);
+    background-color: #0F0F11;
+}
+
+
+/* DROPMENU */
+.dropMenu{
+    position: relative;
+    display: inline-block;
+}
+
+.conteudoMenu{
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.conteudoMenu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.conteudoMenu a:hover {
+    background-color: #f1f1f1;
+}
+
+.conteudoInformacao{
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+.opcoesMenu{
+    display: block;
+    right: 5px;
+    position: fixed;
+    font-size: 30px;
+}
+
+.opcoesMenuInfo{
+    display: block;
+    right: 10px;
+    background-color: #e4e4e4;
+    font-size: 20px;
+}
+/* DROP MENU STYLE */
+.conteudoMenu ul{
+    list-style: none;
+    padding: 10px;
+}
