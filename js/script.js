@@ -31,6 +31,24 @@ let span2 = document.getElementsByClassName("close")[1];
 span2.onclick = function () {
     modal2.style.display = "none";
 }
+
+//MODAI IMAGENS 3
+let modal3 = document.getElementById('meuModal3');
+let img3 = document.getElementById('materias3');
+let modalImg3 = document.getElementById("img03");
+
+img3.onclick = function () {
+    modal3.style.display = "block";
+    modalImg3.src = img03.src;
+    span3.style.display = "block";
+}
+
+let span3 = document.getElementsByClassName("close")[2];
+
+span3.onclick = function () {
+    modal3.style.display = "none";
+}
+
 // --------------------
 //HAMBURGUER FUNFA
 let menuHamburguer = document.querySelector(".hamburguer");
@@ -48,6 +66,8 @@ menuInfo.onclick = function() {
     infoContent.classList.toggle("opcoesMenuInfo");
 }
 //--------------------
+
+
 // MODAL FATOS
 let modalFatos = document.querySelector(".didUknow");
 
@@ -95,13 +115,6 @@ function apareceMercurio() {
     else{
         remover();
     }
-    // modalFatos.classList.toggle("aparece");
-    // if (document.querySelector(".mercury").style.display == ("flex")) {
-    //     document.querySelector(".mercury").style.display = ("none");
-    // }
-    // else {
-    //     document.querySelector(".mercury").style.display = ("flex");
-    // }
 }
 
 function apareceVenus() {
@@ -180,3 +193,4 @@ function apareceNetuno() {
         remover();
     }
 }
+//-----------------------------------

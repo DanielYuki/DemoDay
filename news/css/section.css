@@ -31,7 +31,7 @@ section{
 }
 
 .mySlides:nth-child(1){
-    background-image: url(../images/Marcos-Pontes-render.png);
+    background-image: url(../../imgSrc/Marcos-Pontes.jpg);
     display: none;
     min-width: 250px;
     min-height: 250px;
@@ -46,7 +46,7 @@ section{
 }
 
 .mySlides:nth-child(2){
-    background-image: url(../images/Yuri\ Gagarin.jpg);
+    background-image: url(../../imgSrc/Yuri\ Gagarin.jpg);
     display: none;
     min-width: 250px;
     min-height: 250px;
@@ -81,7 +81,7 @@ section{
     background-size: cover;
 }
 .parallax3{
-    background-image: url(../images/nasa.jpg);
+    background-image: url(../../imgSrc/nasa.jpg);
     height: 250px;
     width: 100%;
     background-attachment: fixed;

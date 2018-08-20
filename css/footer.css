@@ -6,16 +6,6 @@
     width: 100vw;
 }
 
-.parallax2{
-    background-image: url(../images/mars2.jpg);
-    height: 300px;
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .cadastro{
     height: 200px;
     display: flex;
@@ -42,6 +32,7 @@ footer input{
     align-items: center;
     display: flex;
     text-align: center;
+    color: white;
     cursor: pointer;
     outline: none;
     border: none;
@@ -61,12 +52,14 @@ footer input{
     border-radius: 50px;
     font-size: 15px;
     padding: 10px 20px;
+    background-color: rgb(59, 87, 97);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.103);
 }
 
 #mandarCadastro:hover{
     border: 2px solid rgb(255, 255, 255, 0.2);
-    background-color: rgba(255, 255, 255, 0.699);
+    background-color: rgb(44, 70, 78);
+    color: rgba(255, 255, 255, 0.473);
 }
 
 #mandarCadastro:active{
