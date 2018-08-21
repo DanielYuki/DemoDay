@@ -79,6 +79,7 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative
 }
 .parallax3{
     background-image: url(../../imgSrc/nasa.jpg);
@@ -88,6 +89,7 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative
 }
 
 #titulo{
