@@ -27,13 +27,18 @@
     color: rgb(255, 255, 255);
     font-family: sans-serif;
     font-size: 24px;
-    margin: 0;
+    margin-left: 20px;
 }
 
 .hamburguer{
     padding: 5px;
     border: none;
     margin-right: 5px;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
 }
 
 /* PARTE DA NAV */
