@@ -210,7 +210,7 @@ $(function(){
 				if ( obj.is(':first-child') ) {
 					var bg_pos = ( window_scrolltop - obj.position().top ) / divisor;
 				} else {
-					var bg_pos = ( window_scrolltop - obj.position().top + ( obj.height() ) ) / divisor;
+					var bg_pos = ( window_scrolltop - obj.position().top + ( obj.height() -100) ) / divisor;
 				}
 				
 				// Modifica a posição do bg
@@ -235,7 +235,7 @@ $(function(){
 				if ( obj.is(':first-child') ) {
 					var bg_pos = ( window_scrolltop - obj.position().top ) / divisor;
 				} else {
-					var bg_pos = ( window_scrolltop - obj.position().top + ( obj.height() ) ) / divisor;
+					var bg_pos = ( window_scrolltop - obj.position().top + ( obj.height() -100) ) / divisor;
 				}
 				
 				// Modifica a posição do bg
