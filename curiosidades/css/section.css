@@ -1,0 +1,87 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.destaque {
+    width: 100%;
+    padding: 20px 0;
+    background-image: url('../../imgSrc/bgdestaque.jpg');
+    background-size: cover;
+    color: white;
+    font-size: 1.8em;
+}
+.destaque-titulo, .destaque-sinopse {
+    z-index: 1;
+}
+.destaque-sinopse {
+    margin: 0;
+}
+.destaque img {
+    max-width: 300px;
+    animation: float 8s linear infinite;
+}
+.parallax1{
+    background-image: url(../../imgSrc/solarsystem.jpg);
+    height: 250px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2{
+    background-image: url(../../imgSrc/jupiter.jpg);
+    height: 250px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo{
+    margin: .4em 0;
+    color: #424242;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0 10px;
+    color: rgb(173, 164, 164);
+}
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translate(0, 0);
+        transform: rotate(0);
+    }
+    20% {
+        transform: translate(15px, -30px);
+        transform: rotate(7deg);
+    }
+	50% {
+        box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+        transform: translate(0, -95px);
+        
+
+    }
+    80% {
+        transform: translate(-20px, -15px);
+        transform: rotate(-7deg);
+    }
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translate(0, 0);
+        transform: rotate(0);
+   }
+}
