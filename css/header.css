@@ -43,6 +43,11 @@ header {
     margin-right: 5px;
 }
 
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
 /* PARTE DA NAV */
 .barra1, .barra2, .barra3{
     height: 5px;

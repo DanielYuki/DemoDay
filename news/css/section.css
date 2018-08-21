@@ -3,7 +3,7 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-<<<<<<< HEAD
+    margin-top: 40px;
     overflow-x: hidden;
 }
 .destaque {
@@ -23,10 +23,6 @@ section{
 .destaque img {
     max-width: 300px;
     animation: float 8s linear infinite;
-}
-=======
-    margin-top: 40px;
-    overflow-x: hidden;
 }
 /* ______________SLIDE___________ */
 .corpoSlide{
@@ -93,7 +89,6 @@ section{
 /* ______________SLIDE___________ */
 
 
->>>>>>> 757e4188dead08f65a6bcb65c38275d024a5f171
 .parallax1{
     background-image: url(../../imgSrc/solarsystem.jpg);
     height: 250px;
@@ -127,11 +122,12 @@ article{
     display: flex;
     align-items: center;
     flex-direction: column;
-<<<<<<< HEAD
-    background-color: white;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 0 10px;
-    color: rgb(173, 164, 164);
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.205);
+    color: rgb(196, 196, 196);
 }
 @keyframes float {
 	0% {
@@ -159,16 +155,6 @@ article{
         transform: rotate(0);
    }
 }
-=======
-    border: 2px solid white;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.205);
-    margin: 10px 12vw;
-    color: rgb(196, 196, 196);
-
-
-}
-
 /* _______________________________MODAL_________________________________ */
 #meuModal{
     height: 100vh;
@@ -264,6 +250,3 @@ article{
         width: 100%;
     }
 }
-
-/* ___________________________________MODAL__________________________________ */
->>>>>>> 757e4188dead08f65a6bcb65c38275d024a5f171
