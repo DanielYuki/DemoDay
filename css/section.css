@@ -122,7 +122,7 @@ section p{
     color: white;
     text-decoration: none;
     bottom: 0;
-    background-color: rgb(4, 0, 20);
+    background-color: rgba(4, 0, 20, 0.377);
     padding: 10px;
 }
 

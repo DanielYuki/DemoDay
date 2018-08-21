@@ -20,7 +20,7 @@
 
 .cadastro h3{
     margin: 5px;
-    color: antiquewhite;
+    color: white;
     letter-spacing: -2px;
     font-size: 25px;
     text-align: center;
@@ -52,7 +52,7 @@ footer input{
     border-radius: 50px;
     font-size: 15px;
     padding: 10px 20px;
-    background-color: rgb(59, 87, 97);
+    background-color: rgb(93, 124, 136);
     box-shadow: 3px 3px rgba(0, 0, 0, 0.103);
 }
 

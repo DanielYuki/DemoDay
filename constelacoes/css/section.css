@@ -59,6 +59,7 @@ article h2{
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.089);
 }
 
 #materias:hover {opacity: 0.7;}
