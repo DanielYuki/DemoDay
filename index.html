@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Space Pyxis</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/section.css">
@@ -18,12 +19,11 @@
 </head>
 
 <body>
-    <!-- HEADER/NAV BAR/HAMBURGUER -->
     <header>
         <div class="navsinha">
-            <a href="#" id="spacePyxis">
+            <a href="index.html" id="spacePyxis">
                 <div class="nomeIcone">
-                    <img src="http://via.placeholder.com/40x40" alt="" />
+                    <img class="logo" src="imgSrc/logoSpacePyxis.png" alt="" />
                     <h1>SPACE PYXIS</h1>
                 </div>
             </a>
@@ -36,19 +36,32 @@
                 </div>
                 <nav class="conteudoMenu">
                     <ul>
-                        <li><a href="./news/index.html"><i class="fa fa-rocket"></i>Notícias</a></li>
-                        <li><a href="./curiosidades/index.html"><i class="fa fa-infinity"></i>Curiosidades</a></li>
-                        <li><a class="informacoes" href=""><i class="fa fa-binoculars"></i>Informações</a>
+                        <li>
+                            <a href="news/index.html">
+                                <i class="fa fa-rocket"></i>Notícias</a>
+                        </li>
+                        <li>
+                            <a href="curiosidades/index.html">
+                                <i class="fa fa-infinity"></i>Curiosidades</a>
+                        </li>
+                        <li>
+                            <a class="informacoes" href="">
+                                <i class="fa fa-binoculars"></i>Informações</a>
                             <ul class="conteudoInformacao">
                                 <li>
-                                    <a href="./planetas/index.html"><i class="fa fa-globe-americas"></i>Planetas</a>
+                                    <a href="planetas/index.html">
+                                        <i class="fa fa-globe-americas"></i>Planetas</a>
                                 </li>
                                 <li>
-                                    <a href="./constelacoes/index.html"><i class="fa fa-star-of-life"></i>Constelações</a>
+                                    <a href="constelacoes/index.html">
+                                        <i class="fa fa-star-of-life"></i>Constelações</a>
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="#"><i class="fa fa-user-astronaut"></i>Social</a></li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-user-astronaut"></i>Social</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -57,66 +70,678 @@
     </header>
     <!-- AREA DOS PLANETAS -->
     <div id="planetas">
-    <!-- Swiper -->
-      <div class="swiper-container">
-        <div class="parallax-bg" style="background-image:url(imgSrc/bgslider.jpg)" data-swiper-parallax="-23%"></div>
-        <div class="swiper-wrapper">
-          <div class="swiper-slide planet">
-            <div class="planet-img" data-swiper-parallax="-300px">
-                <img src="imgSrc/mercurio.gif" alt="Mércurio">
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="parallax-bg" style="background-image:url(imgSrc/background.jpg)" data-swiper-parallax="-23%"></div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide planet">
+                    <div class="planet-img" data-swiper-parallax="-300px">
+                        <img id="mercurio" src="imgSrc/mercurio.gif" alt="Mércurio">
+                    </div>
+                    <div class="planet-name" data-swiper-parallax="-200px">Mércurio</div>
+                </div>
+                <div class="swiper-slide planet">
+                    <div class="planet-img" data-swiper-parallax="-300px">
+                        <img id="venus" src="imgSrc/venus.gif" alt="Vênus">
+                    </div>
+                    <div class="planet-name" data-swiper-parallax="-200px">Vênus</div>
+                </div>
+                <div class="swiper-slide planet">
+                    <div class="planet-img" data-swiper-parallax="-300px">
+                        <img id="terra" src="imgSrc/terra.gif" alt="Terra">
+                    </div>
+                    <div class="planet-name" data-swiper-parallax="-200px">Terra</div>
+                </div>
+                <div class="swiper-slide planet">
+                    <div class="planet-img" data-swiper-parallax="-300px">
+                        <img id="marte" src="imgSrc/marte.gif" alt="Marte">
+                    </div>
+                    <div class="planet-name" data-swiper-parallax="-200px">Marte</div>
+                </div>
+                <div class="swiper-slide planet">
+                    <div class="planet-img" data-swiper-parallax="-300px">
+                        <img id="jupiter" src="imgSrc/jupiter.gif" alt="Júpiter">
+                    </div>
+                    <div class="planet-name" data-swiper-parallax="-200px">Júpiter</div>
+                </div>
+                <div class="swiper-slide planet">
+                    <div class="planet-img" data-swiper-parallax="-300px">
+                        <img id="saturno" src="imgSrc/saturno.gif" alt="Saturno">
+                    </div>
+                    <div class="planet-name" data-swiper-parallax="-200px">Saturno</div>
+                </div>
+                <div class="swiper-slide planet">
+                    <div class="planet-img" data-swiper-parallax="-300px">
+                        <img id="urano" src="imgSrc/urano.png" alt="Urano">
+                    </div>
+                    <div class="planet-name" data-swiper-parallax="-200px">Urano</div>
+                </div>
+                <div class="swiper-slide planet">
+                    <div class="planet-img" data-swiper-parallax="-300px">
+                        <img id="netuno" src="imgSrc/netuno.gif" alt="Netuno">
+                    </div>
+                    <div class="planet-name" data-swiper-parallax="-200px">Netuno</div>
+                </div>
             </div>
-            <div class="planet-name" data-swiper-parallax="-200px">Mércurio</div>
-          </div>
-          <div class="swiper-slide planet">
-            <div class="planet-img" data-swiper-parallax="-300px">
-                <img src="imgSrc/venus.gif" alt="Vênus">
-            </div>
-            <div class="planet-name" data-swiper-parallax="-200px">Vênus</div>
-          </div>
-          <div class="swiper-slide planet">
-            <div class="planet-img" data-swiper-parallax="-300px">
-                <img src="imgSrc/terra.gif" alt="Terra">
-            </div>
-            <div class="planet-name" data-swiper-parallax="-200px">Terra</div>
-          </div>
-          <div class="swiper-slide planet">
-            <div class="planet-img" data-swiper-parallax="-300px">
-                <img src="imgSrc/marte.gif" alt="Marte">
-            </div>
-            <div class="planet-name" data-swiper-parallax="-200px">Marte</div>
-          </div>
-          <div class="swiper-slide planet">
-            <div class="planet-img" data-swiper-parallax="-300px">
-                <img src="imgSrc/jupiter.gif" alt="Júpiter">
-            </div>
-            <div class="planet-name" data-swiper-parallax="-200px">Júpiter</div>
-          </div>
-          <div class="swiper-slide planet">
-            <div class="planet-img" data-swiper-parallax="-300px">
-                <img src="imgSrc/saturno.gif" alt="Saturno">
-            </div>
-            <div class="planet-name" data-swiper-parallax="-200px">Saturno</div>
-          </div>
-          <div class="swiper-slide planet">
-            <div class="planet-img" data-swiper-parallax="-300px">
-                <img src="imgSrc/urano.png" alt="Urano">
-            </div>
-            <div class="planet-name" data-swiper-parallax="-200px">Urano</div>
-          </div>
-          <div class="swiper-slide planet">
-            <div class="planet-img" data-swiper-parallax="-300px">
-                <img src="imgSrc/netuno.gif" alt="Netuno">
-            </div>
-            <div class="planet-name" data-swiper-parallax="-200px">Netuno</div>
-          </div>
+
+            <!-- Adiciona Navegação slider -->
+            <div class="swiper-button-prev swiper-button-white"></div>
+            <div class="swiper-button-next swiper-button-white"></div>
         </div>
 
-        <!-- Adiciona Navegação slider -->
-        <div class="swiper-button-prev swiper-button-white"></div>
-        <div class="swiper-button-next swiper-button-white"></div>
-      </div>
-
     </div>
+    <!-- PARTE DOS MODAIS (SOU BURRO PAKARAI) -->
+    <div class="didUknow">
+        <div class="mercury">
+            <div class="trianglim-top"></div>
+            <div class="didUknowContent">
+                <h2>
+                    <span>10</span>Fatos Interessantes Sobre
+                    <span>Mercurio</span>
+                </h2>
+                <div class="fatos">
+                    <h2 class="numero">1</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">2</h2>
+                    <h2 class="titulo">PARECE, MAS NÃO É</h2>
+                    <p>Mercurio, apesar de ser o planeta mais próximo ao Sol, não é o mais quente, e sim o segundo, perdendo
+                        apenas para Venus</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">3</h2>
+                    <h2 class="titulo">O MENORZINHO</h2>
+                    <p>Mercúrio é o menor planeta em nosso Sistema Solar, possuindo apenas 4,879km de diâmetro, tendo quase
+                        o mesmo tamanho que nossa lua</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">4</h2>
+                    <h2 class="titulo">LONGOS DIAS, CURTOS ANOS</h2>
+                    <p>Um ano em Mercurio é de aproximadamente 88 dias terrestres, enquanto um dia lá, seria de aproximadamente
+                        57 dias terrestres. Estranho não ?</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">5</h2>
+                    <h2 class="titulo">SEM ACESSÓRIOS</h2>
+                    <p>Mercúrio não possui nenhuma Lua, e também, não possui Anéis.
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">6</h2>
+                    <h2 class="titulo">VIDA EM MERCÚRIO</h2>
+                    <p>Não há evidencias de vida em Mercúrio, sua temperatura pode variar de 430°C para -180°C, sendo praticamente
+                        impossivel a presença de vida nestas condições.
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">7</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">8</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">9</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">10</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <button>SAIBA MAIS</button>
+            </div>
+        </div>
+        <div class="venus">
+            <div class="trianglim-top"></div>
+            <div class="didUknowContent">
+                <h2>
+                    <span>10</span>Fatos Interessantes Sobre
+                    <span>Venus</span>
+                </h2>
+                <div class="fatos">
+                    <h2 class="numero">1</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">2</h2>
+                    <h2 class="titulo">PARECE, MAS NÃO É</h2>
+                    <p>Mercurio, apesar de ser o planeta mais próximo ao Sol, não é o mais quente, e sim o segundo, perdendo
+                        apenas para Venus</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">3</h2>
+                    <h2 class="titulo">O MENORZINHO</h2>
+                    <p>Mercúrio é o menor planeta em nosso Sistema Solar, possuindo apenas 4,879km de diâmetro, tendo quase
+                        o mesmo tamanho que nossa lua</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">4</h2>
+                    <h2 class="titulo">LONGOS DIAS, CURTOS ANOS</h2>
+                    <p>Um ano em Mercurio é de aproximadamente 88 dias terrestres, enquanto um dia lá, seria de aproximadamente
+                        57 dias terrestres. Estranho não ?</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">5</h2>
+                    <h2 class="titulo">SEM ACESSÓRIOS</h2>
+                    <p>Mercúrio não possui nenhuma Lua, e também, não possui Anéis.
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">6</h2>
+                    <h2 class="titulo">VIDA EM MERCÚRIO</h2>
+                    <p>Não há evidencias de vida em Mercúrio, sua temperatura pode variar de 430°C para -180°C, sendo praticamente
+                        impossivel a presença de vida nestas condições.
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">7</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">8</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">9</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">10</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <button>SAIBA MAIS</button>
+            </div>
+        </div>
+        <div class="earth">
+            <div class="trianglim-top"></div>
+            <div class="didUknowContent">
+                <h2>
+                    <span>10</span>Fatos Interessantes Sobre
+                    <span>Terra</span>
+                </h2>
+                <div class="fatos">
+                    <h2 class="numero">1</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">2</h2>
+                    <h2 class="titulo">PARECE, MAS NÃO É</h2>
+                    <p>Mercurio, apesar de ser o planeta mais próximo ao Sol, não é o mais quente, e sim o segundo, perdendo
+                        apenas para Venus</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">3</h2>
+                    <h2 class="titulo">O MENORZINHO</h2>
+                    <p>Mercúrio é o menor planeta em nosso Sistema Solar, possuindo apenas 4,879km de diâmetro, tendo quase
+                        o mesmo tamanho que nossa lua</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">4</h2>
+                    <h2 class="titulo">LONGOS DIAS, CURTOS ANOS</h2>
+                    <p>Um ano em Mercurio é de aproximadamente 88 dias terrestres, enquanto um dia lá, seria de aproximadamente
+                        57 dias terrestres. Estranho não ?</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">5</h2>
+                    <h2 class="titulo">SEM ACESSÓRIOS</h2>
+                    <p>Mercúrio não possui nenhuma Lua, e também, não possui Anéis.
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">6</h2>
+                    <h2 class="titulo">VIDA EM MERCÚRIO</h2>
+                    <p>Não há evidencias de vida em Mercúrio, sua temperatura pode variar de 430°C para -180°C, sendo praticamente
+                        impossivel a presença de vida nestas condições.
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">7</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">8</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">9</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">10</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <button>SAIBA MAIS</button>
+            </div>
+        </div>
+        <div class="mars">
+            <div class="trianglim-top"></div>
+            <div class="didUknowContent">
+                <h2>
+                    <span>10</span>Fatos Interessantes Sobre
+                    <span>Marte</span>
+                </h2>
+                <div class="fatos">
+                    <h2 class="numero">1</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">2</h2>
+                    <h2 class="titulo">PARECE, MAS NÃO É</h2>
+                    <p>Mercurio, apesar de ser o planeta mais próximo ao Sol, não é o mais quente, e sim o segundo, perdendo
+                        apenas para Venus</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">3</h2>
+                    <h2 class="titulo">O MENORZINHO</h2>
+                    <p>Mercúrio é o menor planeta em nosso Sistema Solar, possuindo apenas 4,879km de diâmetro, tendo quase
+                        o mesmo tamanho que nossa lua</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">4</h2>
+                    <h2 class="titulo">LONGOS DIAS, CURTOS ANOS</h2>
+                    <p>Um ano em Mercurio é de aproximadamente 88 dias terrestres, enquanto um dia lá, seria de aproximadamente
+                        57 dias terrestres. Estranho não ?</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">5</h2>
+                    <h2 class="titulo">SEM ACESSÓRIOS</h2>
+                    <p>Mercúrio não possui nenhuma Lua, e também, não possui Anéis.
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">6</h2>
+                    <h2 class="titulo">VIDA EM MERCÚRIO</h2>
+                    <p>Não há evidencias de vida em Mercúrio, sua temperatura pode variar de 430°C para -180°C, sendo praticamente
+                        impossivel a presença de vida nestas condições.
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">7</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">8</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">9</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">10</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <button>SAIBA MAIS</button>
+            </div>
+        </div>
+        <div class="jupiter">
+            <div class="trianglim-top"></div>
+            <div class="didUknowContent">
+                <h2>
+                    <span>10</span>Fatos Interessantes Sobre
+                    <span>Jupiter</span>
+                </h2>
+                <div class="fatos">
+                    <h2 class="numero">1</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">2</h2>
+                    <h2 class="titulo">PARECE, MAS NÃO É</h2>
+                    <p>Mercurio, apesar de ser o planeta mais próximo ao Sol, não é o mais quente, e sim o segundo, perdendo
+                        apenas para Venus</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">3</h2>
+                    <h2 class="titulo">O MENORZINHO</h2>
+                    <p>Mercúrio é o menor planeta em nosso Sistema Solar, possuindo apenas 4,879km de diâmetro, tendo quase
+                        o mesmo tamanho que nossa lua</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">4</h2>
+                    <h2 class="titulo">LONGOS DIAS, CURTOS ANOS</h2>
+                    <p>Um ano em Mercurio é de aproximadamente 88 dias terrestres, enquanto um dia lá, seria de aproximadamente
+                        57 dias terrestres. Estranho não ?</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">5</h2>
+                    <h2 class="titulo">SEM ACESSÓRIOS</h2>
+                    <p>Mercúrio não possui nenhuma Lua, e também, não possui Anéis.
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">6</h2>
+                    <h2 class="titulo">VIDA EM MERCÚRIO</h2>
+                    <p>Não há evidencias de vida em Mercúrio, sua temperatura pode variar de 430°C para -180°C, sendo praticamente
+                        impossivel a presença de vida nestas condições.
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">7</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">8</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">9</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">10</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <button>SAIBA MAIS</button>
+            </div>
+        </div>
+        <div class="saturn">
+            <div class="trianglim-top"></div>
+            <div class="didUknowContent">
+                <h2>
+                    <span>10</span>Fatos Interessantes Sobre
+                    <span>Saturno</span>
+                </h2>
+                <div class="fatos">
+                    <h2 class="numero">1</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">2</h2>
+                    <h2 class="titulo">PARECE, MAS NÃO É</h2>
+                    <p>Mercurio, apesar de ser o planeta mais próximo ao Sol, não é o mais quente, e sim o segundo, perdendo
+                        apenas para Venus</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">3</h2>
+                    <h2 class="titulo">O MENORZINHO</h2>
+                    <p>Mercúrio é o menor planeta em nosso Sistema Solar, possuindo apenas 4,879km de diâmetro, tendo quase
+                        o mesmo tamanho que nossa lua</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">4</h2>
+                    <h2 class="titulo">LONGOS DIAS, CURTOS ANOS</h2>
+                    <p>Um ano em Mercurio é de aproximadamente 88 dias terrestres, enquanto um dia lá, seria de aproximadamente
+                        57 dias terrestres. Estranho não ?</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">5</h2>
+                    <h2 class="titulo">SEM ACESSÓRIOS</h2>
+                    <p>Mercúrio não possui nenhuma Lua, e também, não possui Anéis.
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">6</h2>
+                    <h2 class="titulo">VIDA EM MERCÚRIO</h2>
+                    <p>Não há evidencias de vida em Mercúrio, sua temperatura pode variar de 430°C para -180°C, sendo praticamente
+                        impossivel a presença de vida nestas condições.
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">7</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">8</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">9</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">10</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <button>SAIBA MAIS</button>
+            </div>
+        </div>
+        <div class="uranus">
+            <div class="trianglim-top"></div>
+            <div class="didUknowContent">
+                <h2>
+                    <span>10</span>Fatos Interessantes Sobre
+                    <span>Urano</span>
+                </h2>
+                <div class="fatos">
+                    <h2 class="numero">1</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">2</h2>
+                    <h2 class="titulo">PARECE, MAS NÃO É</h2>
+                    <p>Mercurio, apesar de ser o planeta mais próximo ao Sol, não é o mais quente, e sim o segundo, perdendo
+                        apenas para Venus</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">3</h2>
+                    <h2 class="titulo">O MENORZINHO</h2>
+                    <p>Mercúrio é o menor planeta em nosso Sistema Solar, possuindo apenas 4,879km de diâmetro, tendo quase
+                        o mesmo tamanho que nossa lua</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">4</h2>
+                    <h2 class="titulo">LONGOS DIAS, CURTOS ANOS</h2>
+                    <p>Um ano em Mercurio é de aproximadamente 88 dias terrestres, enquanto um dia lá, seria de aproximadamente
+                        57 dias terrestres. Estranho não ?</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">5</h2>
+                    <h2 class="titulo">SEM ACESSÓRIOS</h2>
+                    <p>Mercúrio não possui nenhuma Lua, e também, não possui Anéis.
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">6</h2>
+                    <h2 class="titulo">VIDA EM MERCÚRIO</h2>
+                    <p>Não há evidencias de vida em Mercúrio, sua temperatura pode variar de 430°C para -180°C, sendo praticamente
+                        impossivel a presença de vida nestas condições.
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">7</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">8</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">9</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">10</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <button>SAIBA MAIS</button>
+            </div>
+        </div>
+        <div class="neptune">
+            <div class="trianglim-top"></div>
+            <div class="didUknowContent">
+                <h2>
+                    <span>10</span>Fatos Interessantes Sobre
+                    <span>Netuno</span>
+                </h2>
+                <div class="fatos">
+                    <h2 class="numero">1</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">2</h2>
+                    <h2 class="titulo">PARECE, MAS NÃO É</h2>
+                    <p>Mercurio, apesar de ser o planeta mais próximo ao Sol, não é o mais quente, e sim o segundo, perdendo
+                        apenas para Venus</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">3</h2>
+                    <h2 class="titulo">O MENORZINHO</h2>
+                    <p>Mercúrio é o menor planeta em nosso Sistema Solar, possuindo apenas 4,879km de diâmetro, tendo quase
+                        o mesmo tamanho que nossa lua</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">4</h2>
+                    <h2 class="titulo">LONGOS DIAS, CURTOS ANOS</h2>
+                    <p>Um ano em Mercurio é de aproximadamente 88 dias terrestres, enquanto um dia lá, seria de aproximadamente
+                        57 dias terrestres. Estranho não ?</p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">5</h2>
+                    <h2 class="titulo">SEM ACESSÓRIOS</h2>
+                    <p>Mercúrio não possui nenhuma Lua, e também, não possui Anéis.
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">6</h2>
+                    <h2 class="titulo">VIDA EM MERCÚRIO</h2>
+                    <p>Não há evidencias de vida em Mercúrio, sua temperatura pode variar de 430°C para -180°C, sendo praticamente
+                        impossivel a presença de vida nestas condições.
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">7</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">8</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">9</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <div class="fatos">
+                    <h2 class="numero">10</h2>
+                    <h2 class="titulo">O MAIS PRÓXIMO</h2>
+                    <p>Sua distância entre o Sol está entre 58 milhões de Kilometros, assim sendo o planeta mais próximo do
+                        Sol
+                    </p>
+                </div>
+                <button>SAIBA MAIS</button>
+            </div>
+        </div>
+    </div>
+    <!-- ACABO A PARTE DOS MODAIS (SCR) -->
     <!-- VAI TER "TOP TOPICS", ONDE VAI TER UM RESUMO DE NOTICIAS -->
     <section>
         <h2>Melhores Da Semana</h2>
@@ -129,7 +754,7 @@
             <div id="meuModal" class="modal">
                 <span class="close">X</span>
                 <!-- CONTEUDO MODAL -->
-                <img src="./imgSrc/progranauta.jpg" class="conteudoModal" id="img01" alt="imagemMateria">
+                <img src="./imgSrc/progranauta.jpg" class="conteudoModal" id="img01" alt="Progranauta">
                 <h3>RENAN RODRIGO, O "PROGRANAUTA"</h3>
                 <div class="descricao">
                     <p>
@@ -157,45 +782,77 @@
                     </p>
                 </div>
                 <a class="subir" href="#img01">
+                    <div class="trianglim-top-top"></div>
                     <div>SUBIR</div>
                 </a>
-
             </div>
         </article>
         <article>
             <div id="materias2" class="materias">
-                <h3>QRIA STAR MORTA</h3>
-                <p>É ISSO MESMO, PORÉM PRIMEIRAMENTE FORA TEMER</p>
+                <h3>PYXIS NAUTICA</h3>
+                <p>Afinal, o que é a Pyxis Nautica ?</p>
             </div>
             <!-- parte q aparece qndo clica -->
             <div id="meuModal2" class="modal">
                 <span class="close">X</span>
                 <!-- CONTEUDO MODAL -->
-                <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fil8.picdn.net%2Fshutterstock%2Fvideos%2F230830%2Fthumb%2F1.jpg&f=1"
-                    class="conteudoModal" id="img02" alt="imagemMateria">
-                <h3>ARIES IPSUM</h3>
-                <p>LOREM ISMAPDKAPDSSA ASLDPLA PDASP DKASPD ASKDASK</p>
-                <p>LOREM ISMAPDKAPDSSA ASLDPLA PDASP DKASPD ASKDASK</p>
-                <p>LOREM ISMAPDKAPDSSA ASLDPLA PDASP DKASPD ASKDASK</p>
-                <p>LOREM ISMAPDKAPDSSA ASLDPLA PDASP DKASPD ASKDASK</p>
-                <p>LOREM ISMAPDKAPDSSA ASLDPLA PDASP DKASPD ASKDASK</p>
-                <p>LOREM ISMAPDKAPDSSA ASLDPLA PDASP DKASPD ASKDASK</p>
-                <p>LOREM ISMAPDKAPDSSA ASLDPLA PDASP DKASPD ASKDASK</p>
-                <p>LOREM ISMAPDKAPDSSA ASLDPLA PDASP DKASPD ASKDASK</p>
-                <p>LOREM ISMAPDKAPDSSA ASLDPLA PDASP DKASPD ASKDASK</p>
-                <p>LOREM ISMAPDKAPDSSA ASLDPLA PDASP DKASPD ASKDASK</p>
-                <p>LOREM ISMAPDKAPDSSA ASLDPLA PDASP DKASPD ASKDASK</p>
-                <button>LEIA MAIS</button>
-            </div>
+                <img src="./imgSrc/pyxisNautica.jpg" class="conteudoModal" id="img02" alt="PyxisNautica">
+                <h3>PYXIS NAUTICA</h3>
+                <div class="descricao">
+                    <p>Este nome não foi escolhido por acaso, pois Pyxis Nautica representa a constelação de "Bussola do Marinheiro"(ou
+                        simplesmente, Bussola), que nos tempos antigos era utilizada para guiar os navegadores, servindo
+                        também como um amuleto da sorte para os mesmos.
+                    </p>
+                    <p>Pyxis é uma pequena constelação, sendo formado por apenas três estrelas, que estão posicionadas de certa
+                        forma, a formarem uma "linha" reta no espaço</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit iaculis nostra gravida, sagittis senectus quis justo cubilia quisque
+                        ante habitasse habitant, et metus fusce porttitor porta laoreet curae proin eros. Semper nulla curabitur
+                        enim imperdiet nascetur turpis praesent accumsan ante habitant, duis dapibus ridiculus hac sollicitudin
+                        purus himenaeos consequat odio mi phasellus, posuere fringilla massa arcu fames sagittis mollis facilisi
+                        maecenas. Semper turpis eu inceptos platea porttitor felis proin justo cras, ac dictumst egestas
+                        tempus nam mattis aliquam mus, natoque nisl litora pellentesque et condimentum etiam quis.
+                    </p>
+                </div>
+                <a class="subir" href="#img02">
+                    <div class="trianglim-top-top"></div>
+                    <div>SUBIR</div>
+                </a>
         </article>
         <article>
-            <div class="close">x</div>
-            <div class="topico">
-                <img src="" alt="" />
-                <h5>IPSUM</h4>
-                    <p> Pelotas transportadora de viado. </p>
-                    <button>Leia Mais</button>
+            <div id="materias3" class="materias">
+                <h3>TERRA PLANA E CIA</h3>
+                <p>O Surgimento De Uma Nova Teoria</p>
             </div>
+            <!-- parte q aparece qndo clica -->
+            <div id="meuModal3" class="modal">
+                <span class="close">X</span>
+                <!-- CONTEUDO MODAL -->
+                <img src="./imgSrc/zapzap.jpg" class="conteudoModal" id="img03" alt="imagemMateria">
+                <h3>TERRA "ZAP"</h3>
+                <div class="descricao">
+                    <p>salve zap-ismo</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit iaculis nostra gravida, sagittis senectus quis justo cubilia quisque
+                        ante habitasse habitant, et metus fusce porttitor porta laoreet curae proin eros. Semper nulla curabitur
+                        enim imperdiet nascetur turpis praesent accumsan ante habitant, duis dapibus ridiculus hac sollicitudin
+                        purus himenaeos consequat odio mi phasellus, posuere fringilla massa arcu fames sagittis mollis facilisi
+                        maecenas. Semper turpis eu inceptos platea porttitor felis proin justo cras, ac dictumst egestas
+                        tempus nam mattis aliquam mus, natoque nisl litora pellentesque et condimentum etiam quis.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit iaculis nostra gravida, sagittis senectus quis justo cubilia quisque
+                        ante habitasse habitant, et metus fusce porttitor porta laoreet curae proin eros. Semper nulla curabitur
+                        enim imperdiet nascetur turpis praesent accumsan ante habitant, duis dapibus ridiculus hac sollicitudin
+                        purus himenaeos consequat odio mi phasellus, posuere fringilla massa arcu fames sagittis mollis facilisi
+                        maecenas. Semper turpis eu inceptos platea porttitor felis proin justo cras, ac dictumst egestas
+                        tempus nam mattis aliquam mus, natoque nisl litora pellentesque et condimentum etiam quis.
+                    </p>
+                </div>
+                <a class="subir" href="#img03">
+                    <div class="trianglim-top-top"></div>
+                    <div>SUBIR</div>
+                </a>
         </article>
         <!-- <button class="botao">Mais notícias</button> -->
     </section>
@@ -231,17 +888,17 @@
     <!-- Inicializa Swiper -->
     <script>
         var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 'auto',
-        speed: 600,
-        parallax: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
+            slidesPerView: 'auto',
+            speed: 600,
+            parallax: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
         });
     </script>
 </body>

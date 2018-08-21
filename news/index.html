@@ -6,21 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="../css/body.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="css/section.css">
     <link rel="stylesheet" href="../css/footer.css">
     <script src="index.js" defer></script>
+    <script scr="jquery.js" defer></script>
     <title>Notícias</title>
 </head>
 
 <body>
-<header>
+    <header>
         <div class="navsinha">
-            <a href="#" id="spacePyxis">
+            <a href="../index.html" id="spacePyxis">
                 <div class="nomeIcone">
-                    <img src="http://via.placeholder.com/40x40" alt="" />
+                    <img class="logo" src="../imgSrc/logoSpacePyxis.png" alt="" />
                     <h1>SPACE PYXIS</h1>
                 </div>
             </a>
@@ -33,19 +35,32 @@
                 </div>
                 <nav class="conteudoMenu">
                     <ul>
-                        <li><a href="../news/index.html"><i class="fa fa-rocket"></i>Notícias</a></li>
-                        <li><a href="../curiosidades/index.html"><i class="fa fa-infinity"></i>Curiosidades</a></li>
-                        <li><a class="informacoes" href=""><i class="fa fa-binoculars"></i>Informações</a>
+                        <li>
+                            <a href="../news/index.html">
+                                <i class="fa fa-rocket"></i>Notícias</a>
+                        </li>
+                        <li>
+                            <a href="../curiosidades/index.html">
+                                <i class="fa fa-infinity"></i>Curiosidades</a>
+                        </li>
+                        <li>
+                            <a class="informacoes" href="">
+                                <i class="fa fa-binoculars"></i>Informações</a>
                             <ul class="conteudoInformacao">
                                 <li>
-                                    <a href="../planetas/index.html"><i class="fa fa-globe-americas"></i>Planetas</a>
+                                    <a href="../planetas/index.html">
+                                        <i class="fa fa-globe-americas"></i>Planetas</a>
                                 </li>
                                 <li>
-                                    <a href="../constelacoes/index.html"><i class="fa fa-star-of-life"></i>Constelações</a>
+                                    <a href="../constelacoes/index.html">
+                                        <i class="fa fa-star-of-life"></i>Constelações</a>
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="#"><i class="fa fa-user-astronaut"></i>Social</a></li>
+                        <li>
+                            <a href="../social/index.html">
+                                <i class="fa fa-user-astronaut"></i>Social</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -57,78 +72,536 @@
     </section>
     <section class="blog">
 
+        <div class=corpoSlide>
+            <div class=mySlides>
+                <div class="tituloSlide">
+                    <p>Marcos Pontes pode ser escalado para missão em Marte?</p>
+                </div>
+            </div>
+            <div class=mySlides>
+                <div class="tituloSlide">
+                    <p>50 anos da morte de Yuri Gagarin, o primeiro cosmonauta!</p>
+                </div>
+            </div>
+        </div>
+
         <article>
-            <h3 class="titulo">Rumo à Marte!</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            <div id="materias" class="materias">
+                <p id="titulo">Matéria orgânica em Marte!</p>
+                <p>Segundo a Nasa, o rover Curiosity encontrou evidências de matéria orgânica preservada em rochas de Marte.</p>
+            </div>
+            <div id="meuModal" class="modal">
+                <div class="close">
+                    <img src="../imgSrc/NewsMateriaMarte.jpg" alt="Imagem de Marte" class="conteudoModal" id="img01">
+                    <p id="titulo">Matéria orgânica em Marte!</p>
+                    <div>
+                        <p>A exploração do homem no espaço acaba de resultar em uma descoberta histórica. Nesta quinta-feira
+                            (7), a Nasa revelou que o robô Curiosity encontrou matéria orgânica preservada nas rochas de
+                            Marte, além de outras descobertas que podem indicar que o Planeta Vermelho já teve vida.
+                            <br>
+                            <br> As moléculas orgânicas foram encontradas em rochas de cerca de três bilhões de anos, próximas
+                            à superfície. Segundo a Nasa, elas podem conter carbono e hidrogênio, além de oxigênio, nitrogênio
+                            e outros elementos.
+                            <br>
+                            <br> Apesar da descoberta, a Curiosity não conseguiu determinar a fonte das moléculas e isso não
+                            necessariamente é uma evidência de que Marte já teve vida em algum momento. Isso porque matéria
+                            orgânica, embora seja associada à vida, também pode ser criada por processos não biológicos,
+                            como a própria Nasa explica.
+                            <br>
+                            <br> Além da matéria orgânica, outra descoberta da Nasa foram intrigantes mudanças sazonais nos níveis
+                            de metano da atmosfera ao longo de três anos marcianos – aproximadamente seis anos terrestres.
+                            <br>
+                            <br> O metano em si pode ter sido criado por uma reação química com água e pedra, mas cientistas
+                            acreditam que também pode ter origem biológica – afinal, a maior parte do metano na Terra veio
+                            de fontes biológicas. O mais curioso, no entanto, é que os níveis do gás na Cratera Gale repetidamente
+                            sobem em meses quentes do verão e descem no inverno, todos os anos.
+                            <br>
+                            <br> Os estranhos picos de metano no Planeta Vermelho sempre deixaram os cientistas perplexos, mas
+                            esta nova informação sugere que o gás está armazenado abaixo da superfície, o que pode ajudar
+                            a explicar isso, além de ser um relevante indício de vida antiga.
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <div id="materias2" class="materias">
+                <p id="titulo">SpaceX colocará 71 satélites orbitais em um único lançamento</p>
+                <p> Depois do lançamento, o Falcon 9 deve demorar entre seis e oito horas para colocar todos os 71 satélites
+                    em órbita. Soltar cada um dos equipamentos no momento certo vai ser uma sequência de eventos extremamente
+                    complexa para evitar que eles colidam e virem lixo espacial. </p>
+            </div>
+            <div id="meuModal2" class="modal">
+                <div class="close">
+                    <img src="../imgSrc/newsSatélite71.jpg" alt="Imagem de progronauta" class="conteudoModal" id="img02">
+                    <p id="titulo">SpaceX colocará 71 satélites orbitais em um único lançamento</p>
+                    <div>
+                        <p>A SpaceX não cansa de anunciar conquistas impressionantes. A empresa divulgou que, ainda neste ano,
+                            o foguete Falcon 9 vai lançar 71 satélites em órbita – o maior número de satélites lançados no
+                            espaço de uma única vez por uma companhia americana. O recorde mundial é de uma empresa indiana,
+                            a ISRO (Indian Space Research Organisation), que colocou 104 satélites em órbita em fevereiro
+                            de 2017. A missão da SpaceX deve decolar ainda em 2018 de uma base aérea na Califórnia, mas a
+                            data ainda não foi anunciada.
+                            <br>
+                            <br> O lançamento está sendo coordenado pela Spaceflight Industries, uma empresa que se dedica a
+                            lançar satélites menores, que não justificariam o custo de um único voo. Por isso, ela compra
+                            espaço em veículos espaciais e lança vários desses satélites de uma única vez. De acordo com
+                            o infográfico divulgado pela própria Spaceflight, são mais de 30 clientes de pelo menos 18 países
+                            diferentes.
+                            <br>
+                            <br> Depois do lançamento, o Falcon 9 deve demorar entre seis e oito horas para colocar todos os
+                            71 satélites em órbita. Soltar cada um dos equipamentos no momento certo vai ser uma sequência
+                            de eventos extremamente complexa para evitar que eles colidam e virem lixo espacial.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <div id="materias3" class="materias">
+                <p id="titulo">Missão: De volta a Lua?</p>
+                <p>Nova missão tripulada pretende servir como base para a criação de futuras naves espacias para novos destinos
+                    no Sistema Solar, como a missão futura mais cotada em Marte.</p>
+            </div>
+            <div id="meuModal3" class="modal">
+                <div class="close">
+                    <img src="../imgSrc/newsOrionMissaoLua.jpg" alt="Imagem aleatória" class="conteudoModal" id="img03">
+                    <p id="titulo">Missão: De volta a Lua?</p>
+                    <div>
+                        <p>Em dezembro do ano passado, o presidente Donald Trump autorizou a NASA a enviar uma nova missão à
+                            Lua, depois de décadas em que nosso satélite natural foi deixado de lado na exploração espacial.
+                            E a agência já vem testando rigorosamente a cápsula Orion, sendo que a missão pode ser lançada
+                            já no ano que vem.
+                            <br>
+                            <br> Se tudo ocorrer dentro do planejado, a Orion servirá como base para a criação de futuras naves
+                            espaciais que levarão seres humanos para outros destinos no espaço, podendo ser usada, também,
+                            na missão que levará o homem à Marte.
+                            <br>
+                            <br> Na década de 1970 a NASA lançou as missões Apollo em direção à Lua, e depois a agência usou
+                            o ônibus espacial para o transporte de astronautas à ISS, mas esse programa foi encerrado em
+                            2011. Desde então, astronautas norte-americanos que são enviados à Estação Espacial Internacional
+                            contam com foguetes russos e de empresas privadas, como a SpaceX, por exemplo, e a Boeing também
+                            está desenvolvendo sua própria cápsula de transporte.
+                            <br>
+                            <br>
+                        </p>
+                        <p id="titulo">Orion: o veículo que ira a lua no século 21</p>
+                        <p>A nave Orion foi projetada com um escudo térmico capaz de suportar temperaturas de até quase 3 mil
+                            graus Celsius. E, na hora de descer ao planeta Terra após a missão lunar, a cápsula lançará pára-quedas
+                            para amenizar sua reentrada. Os astronautas serão despejados o mar, e mergulhadores da Marinha
+                            dos EUA criarão uma plataforma flutuante para recuperar os astronautas na água. Então, um guincho
+                            puxará a Orion para o convés do navio, para que ela possa ser reutilizada.
+                            <br>
+                            <br> Neste momento, a NASA testa os processos de recuperação da Orion, usando um modelo com mesmo
+                            tamanho, formato e peso para tal. Equipamentos de apoio ao solo, escudo térmico, sistemas de
+                            pára-quedas, hardware e software também estão sendo testados.
+                            <br>
+                            <br>
+                        </p>
+                        <p id="titulo">A primeira missão da nave Orion</p>
+                        <p>Dezembro de 2019 é o mês em que está previsto o lançamento da Orion em sua primeira missão, chamada
+                            Exploration Mission 1. A cápsula voará pela Lua e retornará à Terra depois de três semanas. No
+                            futuro, a Orion pode ser usada para ajudar astronautas a construir uma nova Estação Espacial,
+                            chamada Deep Space Gateway.
+                            <br>
+                            <br> Mas a Orion também pode ser usada na missão da NASA que explorará Marte mais a fundo, o que
+                            pode não acontecer até a década de 2030. Sendo assim, o sucesso da primeira missão da Orion na
+                            Lua é essencial para futuras missões espaciais da NASA, não contando apenas com empresas privadas
+                            para a produção de equipamentos.
+                            <br>
+                            <br> E, uma vez que essa primeira missão da Orion não será tripulada, ela servirá como base de testes
+                            quanto aos limites da nave, garantindo, ainda, que seus sistemas de comunicação funcionem devidamente.
+                            No futuro, a NASA pretende criar um ambiente a vácuo com temperaturas extremamente frias, simulando
+                            o espaço, para novos testes, a fim de enviar uma missão tripulada usando a mesma nave.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <div class="parallax1"></div>
+
+        <article>
+            <div id="materias4" class="materias">
+                <p id="titulo">O que "Juno" descobriu?</p>
+                <p>Análise dos polos de Júpiter trazem a revelação de tempestades de até 1.400 km de diâmetro.</p>
+            </div>
+            <div id="meuModal4" class="modal">
+                <div class="close">
+                    <img src="../imgSrc/newsJuno.jpg" alt="Imagem aleatória" class="conteudoModal" id="img04">
+                    <p id="titulo">O que "Juno" descobriu?</p>
+                    <div>
+                        <p>Em agosto de 2017 a sonda espacial Juno realizou o primeiro sobrevoo dos polos de Júpiter. A nave
+                            passou a cerca de 4.000 quilômetros das nuvens e sobreviveu à intensa radiação emitida pelo maior
+                            planeta do Sistema Solar. Os primeiros dados científicos dessas órbitas, publicados nesta quinta-feira
+                            na Science, mostram pela primeira vez um caos de tempestades cuja composição e comportamento
+                            não se parecem com nada que se tenha visto antes no Sistema Solar.
+                            <br>
+                            <br> As imagens revelam que ambos os polos estão infestados de ciclones com forma ovalada. No polo
+                            norte algumas dessas tempestades chegam a alcançar 1.400 quilômetros de diâmetro. Esse panorama
+                            sem ordem é muito diferente do que se conhecia em Saturno, outro gigante gasoso, onde existe
+                            uma descomunal tempestade hexagonal com um vórtice bem peculiar.
+                            <br>
+                            <br> Os dados sobre tempestades nas camadas internas da atmosfera indicam que grandes quantidades
+                            de amoníaco emanam das zonas mais profundas e contribuem para formar as tempestades observadas.
+                            <br>
+                            <br> Em um dos estudos publicados nesta quinta-feira, os cientistas responsáveis por esta missão
+                            da NASA, liderados por Scott Bolton, também destacam a existência de uma nuvem descomunal de
+                            cerca de 7.000 quilômetros de diâmetro que se encontra muito acima do resto, no polo norte, e
+                            sem que ninguém possa explicar como pôde chegar até ali.
+                            <br>
+                            <br> Juno é a primeira sonda que orbita Júpiter há mais de uma década. Até agora, o recorde de aproximação
+                            do gigante gasoso era ostentado pela Pioneer 11 da NASA, que passou a 43.000 quilômetros das
+                            nuvens. Juno se acercou dez vezes mais, o que permitiu medir em detalhes a intensidade do campo
+                            magnético do planeta. Segundo os dados publicados nesta quinta-feira, o campo tem 7.766 gauss,
+                            o dobro do que se calculava até agora.
+                            <br>
+                            <br> Graças à sua órbita sobre os polos, Juno também pôde observar pela primeira vez a chuva de elétrons
+                            que cai na atmosfera e cria as intensas auroras boreais, dificilmente observáveis da Terra.
+                            <br>
+                            <br> A sonda da NASA, do tamanho de uma quadra de basquete, é a nave espacial que mais longe chegou
+                            no Sistema Solar usando somente a energia solar que capta com seus grandes painéis. Suas câmeras
+                            e os demais equipamentos científicos estão blindados com titânio para se protegerem da intensa
+                            radiação emitida pelo planeta. Durante suas órbitas mais próximas a nave atravessou o interior
+                            dos cinturões de radiação onde essas partículas são abundantes.
+                            <br>
+                            <br>
+                        </p>
+                        <p id="titulo">Suicído em Júpiter</p>
+                        <p>Abaixo das nuvens da atmosfera de Júpiter há uma camada intermediária feita de hidrogênio em estado
+                            líquido que se comporta como um metal e amplifica o poderoso campo magnético do planeta, que
+                            é como um dínamo descomunal com uma massa 300 vezes maior que a Terra e dá uma volta sobre si
+                            mesma a cada 10 horas. Uma das principais perguntas que Juno tenta responder é se por trás dessa
+                            camada há um núcleo rochoso com elementos pesados, o que poderia esclarecer que tipo de materiais
+                            existiam nos primeiros momentos de formação do Sistema Solar depois da aparição do Sol, já que
+                            Júpiter foi o primeiro planeta a formar-se e, por usa composição gasosa, se parece com uma estrela.
+                            Os dados da missão também servirão para entender melhor a maioria dos mais de 3.400 planetas
+                            descobertos fora do Sistema Solar, já que também estes são gigantes gasosos.
+                            <br>
+                            <br> Em 20 de fevereiro deste ano, a sonda ligou seus propulsores e adentrou as camadas externas
+                            da atmosfera, onde se desintegrou pelo atrito. Esta última manobra durou cinco dias e evitou
+                            que as luas do planeta se contaminassem com micróbios da Terra. Está previsto que na próxima
+                            década duas missões espaciais – Clipper, da NASA, e Juice, da Agência Espacial Europeia – explorem
+                            Europa e Ganimedes, os dois satélites de Júpiter com mais possibilidade de abrigar vida em seus
+                            oceanos sepultados sob o gelo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <div id="materias5" class="materias">
+                <p id="titulo">Missão Garátea permite inscrições de projetos brasileiros</p>
+                <p>Concurso entre estudantes brasileiros de 12 a 16 anos, permitirá o lançamento com a SpaceX de projeto para
+                    a Estação Espacial internacional.</p>
+            </div>
+            <div id="meuModal5" class="modal">
+                <div class="close">
+                    <img src="../imgSrc/newsISS.jpg" alt="Imagem aleatória" class="conteudoModal" id="img05">
+                    <p id="titulo">Missão Garátea permite inscrições de projetos brasileiros</p>
+                    <div>
+                        <p>Estudantes brasileiros de 12 a 16 anos já podem se inscrever para o Missão Garatéa, consórcio nacional
+                            que prepara alunos de escolas públicas e particulares do país para participar do Student Spaceflight
+                            Experiments Program (SSEP), concurso do governo norte-americano que selecionará um experimento
+                            para voar junto com os astronautas da NASA à Estação Espacial Internacional (ISS), em 2019.
+                            <br>
+                            <br> As inscrições, que são ilimitadas por colégio, devem ser submetidas até 28 de agosto. A taxa
+                            de participação para escolas públicas é de R$ 150. Para instituições de ensino particulares,
+                            R$ 800.
+                            <br>
+                            <br> Essa é a segunda edição do programa Garatéa ISS. A primeira participação brasileira no programa
+                            norte-americano ocorreu no ano passado, o que culminou com o envio para o espaço de um experimento
+                            de alunos do Colégio Dante Alighieri, EMEF Perimetral e do Projeto Âncora.
+                            <br>
+                            <br> Na ocasião, os alunos das instituições quiseram verificar as condições do endurecimento do cimento
+                            misturado no plástico verde em ambiente de microgravidade.
+                            <br>
+                            <br> O projeto deles embarcou em um foguete da SpaceX no dia 29 de junho rumo à Estação Espacial
+                            Internacional e retornou à Terra em 3 de agosto para posterior avaliação de resultados.
+                            <br>
+                            <br> "Quando era pequeno, eu desejava trabalhar no espaço”, afirma o engenheiro espacial Lucas Fonseca,
+                            diretor da Missão Garatéa. “Algumas experiências que vivi foram fundamentais para que eu pudesse
+                            seguir este caminho. Por isso, poder proporcionar a jovens experiências como essa é uma espécie
+                            de missão para mim. Estamos em um momento crucial da ciência no Brasil, e despertar o interesse
+                            das crianças pela ciência é um vetor importante para garantirmos a continuidade de todo um trabalho
+                            exercido no país", completa.
+                            <br>
+                            <br> Uma vez inscritos, os grupos dos colégios serão capacitados a desenvolver seus experimentos
+                            ao longo de nove semanas.
+                            <br>
+                            <br> No início de dezembro, os três dos melhores projetos serão selecionados em uma classificatória
+                            com parceiros norte-americanos. Por fim, a NASA escolherá um experimento finalista para ser lançado
+                            entre maio a agosto de 2019.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <div id="materias6" class="materias">
+                <p id="titulo">Tem um carro no espaço!</p>
+                <p>Primeiro lançamento do foguete da SpaceX, "Falcon Heavy", lança ao espaço um automóvel Tesla e traz os olhos
+                    do mundo aos projeto encabeçados pelo CEO Elon Musk</p>
+            </div>
+            <div id="meuModal6" class="modal">
+                <div class="close">
+                    <img src="../imgSrc/newsCarroEspaço.jpg" alt="Imagem aleatória" class="conteudoModal" id="img06">
+                    <p id="titulo">Tem um carro no espaço!</p>
+                    <div>
+                        <p>Foram cinco anos de espera. Quando a SpaceX apresentou o projeto do Falcon Heavy em 2011, com a previsão
+                            de lançamento em 2013, tudo parecia muito simples – bastava juntar 3 Falcon 9, “amarrar bem”,
+                            e pronto. O problema é que a parte de “amarrar bem” se mostrou muito mais complicada do que parecia.
+                            Nos anos seguintes, o foguete passou por muitas mudanças, o núcleo central precisou ser totalmente
+                            redesenhado e por três vezes o projeto quase foi abandonado. Sofri e lamentei cada atraso, como
+                            uma criança que não aguenta esperar pela noite de natal. Mas 2018 trouxe de presente não só o
+                            Falcão Gordo como o carro do espaço. Tal qual uma criança, não pude deixar de acreditar que era
+                            pura fantasia. Ali, na minha frente, estava o starman ao som de David Bowie conduzindo um Tesla
+                            pelo espaço infinito com a Terra de fundo.
+                            <br>
+                            <br> O leitor mais curioso pode estar se perguntando: “Mas o que isso tudo significa?”. Bom, não
+                            é todo dia que a gente vê o foguete mais poderoso da atualidade fazer seu voo inaugural — e pousar,
+                            no processo, com a precisão de um nado sincronizado, os dois foguetes auxiliares. Também não
+                            é todo dia que a gente vê um carro no espaço. Mas não, não é apenas pelo show.
+                            <br>
+                            <br> Tendo o dobro da potência do seu concorrente mais poderoso (o Delta IV Heavy), o Falcão Gordo
+                            tem a capacidade de colocar em órbita baixa 64 toneladas de material de uma só vez, ou até 27
+                            T em órbita geoestacionária — na qual os satélites giram na mesma velocidade que a Terra, ficando,
+                            portanto, parados no céu, para alguém olhando a partir do nosso planeta. Isso permite lançar
+                            diversos satélites “parrudos” em conjunto, ou lançar projetos grandes como um telescópio espacial,
+                            naves tripuladas ou módulos inteiros de uma estação espacial em órbitas antes impossíveis. Mais
+                            do que isso, o novo foguete pode lançar sondas para qualquer lugar do sistema solar de maneira
+                            direta, sem depender de assistência gravitacional no meio do caminho, nem do alinhamento perfeito
+                            de vários planetas como foi o caso das Voyagers. Podemos lançar rovers para luas de Júpiter e
+                            Saturno e até fazer missões tripuladas para pousar na nossa Lua, caso se realize o reabastecimento
+                            em órbita.
+                            <br>
+                            <br> Tudo isso já seria motivo para comemorar, mas o significado desse lançamento é ainda mais importante
+                            quando atentamos para os foguetes que retornam à Terra. O maior problema da conquista do espaço,
+                            desde o início, sempre foi o custo. Também, pudera: cada foguete lançado é completamente descartado.
+                            Imagine quanto custaria uma passagem de avião se, a cada voo, o avião inteiro fosse jogado fora?
+                            <br>
+                            <br> Elon Musk, quando fundou a SpaceX, teve a visão de mudar isso, de baratear esses custos, fazendo
+                            um foguete que pousasse de volta. A ideia de trazer partes do foguete não é nova, mas nunca foi
+                            executada de maneira a valer a pena. O próprio Ônibus Espacial era uma nave que conseguia voltar
+                            mais ou menos intacta, embora seu tanque principal fosse perdido. Entretanto, a manutenção do
+                            Ônibus Espacial para fazer a próxima viagem era tão grande que os custos não estavam compensando,
+                            e mesmo assim não ficava perfeito (vide o acidente da Columbia em 2003, que deixou sete mortos).
+                            <br>
+                            <br> A SpaceX entendeu que fazer um foguete que pudesse voltar e pousar de pé poderia baratear mais
+                            de 10 vezes as viagens espaciais. Fazer isso na prática, entretanto, parecia impossível. Muitos
+                            riram da ideia de pousar de pé, de maneira automática, um cilindro de 50 metros de altura (equivalente
+                            a um prédio de 16 andares) com apenas 4 metros de diâmetro. É como tentar equilibrar um canudinho
+                            de pé numa mesa, um canudinho que está vindo a mais de 7.000km/h caindo de uma altura de 100km.
+                            De 2013 a 2016, a SpaceX passou testando e aperfeiçoando a técnica, até que, em 2017, ela se
+                            tornou uma realidade.
+                            <br>
+                            <br> Para o Falcon Heavy, o desafio agora é pousar três desses cilindros. No voo inaugural de teste,
+                            ele conseguiu pousar dois — juntinhos. O terceiro deveria aterrissar numa balsa, porém apenas
+                            um dos três motores conseguiu reacender e o núcleo mergulhou no Oceano Atlântico. Não tenho dúvida,
+                            porém, que esta falha será resolvida para os próximos voos.
+                            <br>
+                            <br> O reaproveitamento dos foguetes de um veículo do porte do Falcon Heavy e a redução de custos
+                            em mais de uma ordem de grandeza removem uma enorme barreira e fomentam uma nova corrida espacial.
+                            Mais do que isso, a forma nerd e ousada, e por que não dizer “com estilo” da SpaceX, reacende
+                            o interesse do público jovem e inspira toda uma geração que não assistiu o “pequeno passo” de
+                            Neil Armstrong na Lua.
+                            <br>
+                            <br> A transmissão do lançamento do Falcon Heavy contou com mais de 2 milhões de pessoas ao vivo,
+                            ficando em segundo lugar na história do YouTube. Esse voo marca uma nova guinada na exploração
+                            espacial. A atenção do público e da mídia se voltam novamente para uma nova era que se abre,
+                            admiradas com o espetáculo promovido por Elon Musk e seu carro voador, perseguindo seu sonho
+                            impossível. Ou, quem sabe, um pouco menos impossível agora.
+                            <br>
+                            <br>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <div id="materias7" class="materias">
+                <p id="titulo">US Space Force</p>
+                <p>Donald Trump está no processo de criar o 6º ramo independente das Forças Armas dos Estados Unidos, que deve
+                    se unir à "US Army", "US Air Force", "US Coast Guard", "US Navy" e "US Marine Corps". </p>
+            </div>
+            <div id="meuModal7" class="modal">
+                <div class="close">
+                    <img src="../imgSrc/newsSpaceForce.jpg" alt="Imagem aleatória" class="conteudoModal" id="img07">
+                    <p id="titulo">US Space Force</p>
+                    <div>
+                        <p>O vice-presidente americano Mike Pence revelou detalhes dos planos de criação de uma Força Espacial.
+                            O novo exército será o sexto braço militar dos Estados Unidos.
+                            <br>
+                            <br> Pence anunciou a criação de uma nova legislação que estabelecerá “os passos exatos a serem tomados”
+                            para a criação do exército dedicado a segurança no espaço, um cenário que, segundo ele, já se
+                            transformou em um “novo campo de batalha”.
+                            <br>
+                            <br> “Chegou o momento de escrever o próximo grande capítulo da história de nossas forças armadas,
+                            de se preparar para o próximo campo de batalha, para onde serão convocados os melhores e os mais
+                            corajosos americanos para dissuadir e vencer uma nova geração de ameaças ao nosso povo, à nossa
+                            nação”, afirmou em um discurso no Pentágono.
+                            <br>
+                            <br> “Chegou a hora de criar a Força Espacial dos Estados Unidos”, enfatizou.
+                            <br>
+                            <br> Em 18 de junho, Trump ordenou ao Pentágono a criação dessa nova Força Espacial, prometendo o
+                            “domínio americano” na exploração da Lua e de Marte mas também garantindo a proteção em uma eventual
+                            guerra pelo espaço.
+                            <br>
+                            <br> “Os Estados Unidos serão sempre os primeiros no espaço”, disse Trump durante um discurso na
+                            Casa Branca.
+                            <br>
+                            <br> “Não queremos que China nem Rússia e outros países nos dominem”, acrescentou, apontando que
+                            seu governo “retomará o legado dos Estados Unidos como principal país na exploração espacial”.
+                            <br>
+                            <br>
+                        </p>
+                        <p class="titulo">Passo a passo</p>
+                        <p>A nova legislação apresentada por Pence estabelece quatro passos. O primeiro seria a criação do Comando
+                            do Espaço, que será em última instância o órgão responsável por este novo Exército.
+                            <br>
+                            <br> Em segundo lugar, seria iniciado o processo de formação de tropas, que virão dos diferentes
+                            ramos do Exército, e cuja missão será se concentrar na segurança espacial.
+                            <br>
+                            <br> Além disso, seria estabelecida uma Agência Espacial voltada para a “pesquisa e inovação” com
+                            o objetivo de dotar o Pentágono de todos os recursos necessários para realizar esta nova missão.
+                            <br>
+                            <br> Por último, o quarto passo seria nomear um novo subsecretário de Defesa para o Espaço, que seria
+                            um civil com a tarefa de garantir que sejam cumpridos “os prazos e objetivos” estabelecidos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <div id="materias8" class="materias">
+                <p id="titulo">Nasa lança sonda ao Sol</p>
+                <p>A Sonda Solar Parker a bordo do foguete Delta IV pretende chegar o mais próximo possível da atmosfera solar.</p>
+            </div>
+            <div id="meuModal8" class="modal">
+                <div class="close">
+                    <img src="../imgSrc/newsSolarParker.jpg" alt="Imagem aleatória" class="conteudoModal" id="img08">
+                    <p id="titulo">Nasa lança sonda ao Sol</p>
+                    <div>
+                        <p>Após o adiamento no sábado, por conta de um problema técnico, a agência espacial americana lançou
+                            com sucesso a Sonda Solar Parker, primeira nave espacial construída para “tocar o Sol”. Às 4h31min
+                            deste domingo (pelo horário de Brasília), o poderoso foguete Delta IV deixou a base de Cabo Canaveral,
+                            na Flórida. Menos de uma hora depois, o operador de lançamento informou que a sonda se separou
+                            do foguete para dar início à sua odisseia espacial.
+                            <br>
+                            <br> Do tamanho de um carro e custo de US$ 1,5 bilhão, a Sonda Solar Parker tentará alcançar a corona,
+                            a “atmosfera” de nossa estrela, para tentar resolver um mistério que há tempos intriga os cientistas:
+                            por que sua temperatura é muito maior do que a da própria superfície do Sol? Enquanto a temperatura
+                            na superfície do Sol gira em torno de 5,5 mil graus Celsius, na corona ela sobe para entre mais
+                            de 1 milhão até 10 milhões de graus Celsius, dependendo de quão longe se está da estrela.
+                            <br>
+                            <br> — A energia do Sol está sempre fluindo pelo nosso mundo — lembrou Nicola Fox, cientista de projeto
+                            da missão junto ao Laboratório de Física Aplicada da Universidade Johns Hopkins, EUA. — Mesmo
+                            que o vento solar seja invisível, podemos vê-lo circulando pelos polos como a aurora, que são
+                            belas, mas revelam a enorme quantidade de energia e de partículas que caem como cascata em nossa
+                            atmosfera. Ainda não temos um bom entendimento dos mecanismos que empurram o vento em nossa direção,
+                            e é isso que estamos indo descobrir.
+                            <br>
+                            <br> Para se aproximar da nossa estrela, a sonda foi equipada com um escudo super-resistente. Fabricado
+                            com compostos de carbono e com aproximadamente 11,5 centímetros de espessura, o escudo será capaz
+                            de resistir a temperaturas de cerca de 1,4 mil graus Celsius enquanto mantém os instrumentos
+                            da sonda funcionais em temperatura ambiente, em torno de 29 graus Celsius. Ele não precisa resistir
+                            aos milhões de graus da corona porque ela é muito tênue, isto é, tem relativamente poucas partículas,
+                            o que reduz a efetiva troca de calor com o escudo da nave.
+                            <br>
+                            <br>
+                        </p>
+                        <p id="titulo">Objeto mais rápido já construido</p>
+                        <p>Segundo o planejamento da missão, ela deve chegar a 6,2 milhões de quilômetros da superfície do Sol,
+                            já dentro da corona, que alcança cerca de 8 milhões de quilômetros. Nos sete anos previstos de
+                            operação, a Sonda Solar Parker deve cruzar a corona 24 vezes, a velocidades de cerca de 720 mil
+                            km/h nas maiores aproximações, tornando-se também o objeto mais rápido já construído pela Humanidade.
+                            A essa velocidade, uma viagem entre Tóquio e Nova York levaria apenas um minuto.
+                            <br>
+                            <br> Mas o caminho até o Sol não será fácil. Ao contrário do que se imaginaria, chegar tão perto
+                            de nossa estrela exige muita energia, ainda mais que para alcançar os confins do Sistema Solar,
+                            como fez a New Horizons, outra sonda da Nasa, em sua viagem rumo a Plutão e além. A Terra orbita
+                            o Sol a uma velocidade de cerca de 100 mil km/h numa trajetória “lateral” em relação a ele, o
+                            que significa, pela “lei da inércia”, que a nave vai partir de nosso planeta seguindo basicamente
+                            a mesma trajetória com a mesma velocidade.
+                            <br>
+                            <br> O caminho da Parker Solar Probe até o Sol também vai ser difícil. Ao contrário do que se imaginaria,
+                            chegar tão perto de nossa estrela exige muita energia, ainda mais que para alcançar os confins
+                            do Sistema Solar, como fez a New Horizons, outra sonda da Nasa, em sua viagem rumo a Plutão e
+                            além. A Terra orbita o Sol a uma velocidade de cerca de 100 mil km/h numa trajetória “lateral”
+                            em relação a ele, o que significa, pela “lei da inércia”, que a nave vai partir de nosso planeta
+                            seguindo basicamente a mesma trajetória com a mesma velocidade.
+                            <br>
+                            <br> Assim, a Parker Solar Probe precisa “perder” esta energia para “cair” em direção ao Sol. Como
+                            não há foguetes tão poderosos em operação atualmente, a sonda fará isso ao longo de sete anos
+                            após seu lançamento realizando sete sobrevoos por Vênus para “emprestar” energia orbital ao planeta
+                            e gradualmente diminuir sua distância do Sol nos seus chamados periélios, o ponto de maior aproximação
+                            de nossa estrela na sua órbita.
+                            <br>
+                            <br> — A energia de lançamento necessária para alcançar o Sol é 55 vezes a necessária para chegar
+                            a Marte, e o dobro para alcançar Plutão — resume Yanping Guo, do Laboratório de Física Aplicada
+                            da Universidade Johns Hopkins e responsável pelo desenho da trajetória da missão.
+                            <br>
+                            <br>
+                        </p>
+                        <p id="título">Previsão das tempestade solares</p>
+                        <p>A sonda foi batizada em homenagem a Eugene Parker, de 81 anos, professor emérito da Universidade
+                            de Chicago que previu a existência do vento solar, o constante fluxo de partículas em alta velocidade
+                            emitido por nossa estrela. É a primeira vez que a Nasa batiza uma espaçonave com o nome de um
+                            cientista ainda vivo.
+                            <br>
+                            <br> — A Sonda Solar Parker nos ajudará a fazer um trabalho melhor na previsão de quando ocorrerá
+                            uma perturbação dos ventos solares que poderá afetar a Terra — comentou Justin Kasper, pesquisador
+                            da Universidade de Michigan também envolvido no projeto.
+                            <br>
+                            <br> Desde os anos 1960 que os cientistas sonham em construir uma máquina deste tipo, mas somente
+                            agora existem tecnologias para a construção do escudo. As ferramentas da sonda deverão medir
+                            as partículas de alta energia, as flutuações magnéticas e capturar imagens para melhor compreensão
+                            da corona. Além do calor extremo, é nesta região que acontecem as erupções solares, explosões
+                            que liberam plasma e radiação eletromagnética com potencial para provocar danos na Terra ao interromper
+                            a rede elétrica.
+                            <br>
+                            <br> — O Sol está cheio de mistérios — comentou Fox. — Estamos prontos. Sabemos as perguntas para
+                            as quais queremos respostas.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- <article>
+            <div id="materias9" class="materias">
+                <p id="titulo">Novo satélite "caçador de planetas"</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-        </article>
-        <div class="parallax1"></div>
-        <article>
-            <h3 class="titulo">Falcon Heavy</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
-            </p>
-        </article>
+            </div>
+            <div id="meuModal9" class="modal">
+                <div class="close">
+                    <img src="../imgSrc/progranauta.jpg" alt="Imagem aleatória" class="conteudoModal" id="img09">
+                    <p id="titulo">Novo satélite "caçador de planetas"</p>
+                    <div>
+                        <p>afdsfsdfs ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                </div>            
+            </div>
+        </article> -->
 
-        <article>
-            <h3 class="titulo">Missão: De volta a Lua?!</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
-            </p>
-        </article>
+        <div class="parallax3"></div>
 
-        <article>
-            <h3 class="titulo">O que "Juno" descobriu?</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
-            </p>
-        </article>
-
-        <article>
-            <h3 class="titulo">Mineração em asteróides: possível?</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
-            </p>
-        </article>
-
-        <article>
-            <h3 class="titulo">Lorem ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
-            </p>
-        </article>
-
-        <article>
-            <h3 class="titulo">Lorem ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
-            </p>
-        </article>
-
-        <article>
-            <h3 class="titulo">Lorem ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
-            </p>
-        </article>
-
-        <article>
-            <h3 class="titulo">lorem ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
-            </p>
-        </article>
-        <div class="parallax2"></div>
     </section>
 
     <footer>
@@ -141,10 +614,10 @@
         </div>
         <div class="finalFooter">
             <div class="redesSociais">
-                    <img src="https://image.flaticon.com/icons/svg/145/145802.svg" alt="facebook">
-                    <img src="https://image.flaticon.com/icons/svg/179/179342.svg" alt="twitter">
-                    <img src="https://image.flaticon.com/icons/svg/179/179328.svg" alt="instagram">
-                    <img src="https://image.flaticon.com/icons/svg/145/145807.svg" alt="linkedin">
+                <img src="https://image.flaticon.com/icons/svg/145/145802.svg" alt="facebook">
+                <img src="https://image.flaticon.com/icons/svg/179/179342.svg" alt="twitter">
+                <img src="https://image.flaticon.com/icons/svg/179/179328.svg" alt="instagram">
+                <img src="https://image.flaticon.com/icons/svg/145/145807.svg" alt="linkedin">
             </div>
             <div class="outrasInfos">
                 <h6>Sobre Nós</h6>
