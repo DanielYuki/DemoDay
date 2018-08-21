@@ -55,6 +55,30 @@ section p{
 
 #materias:hover {opacity: 0.7;}
 
+/*--ANIMACAO--*/
+.close {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    background-color: #bbb;
+    padding: 10px;
+    border-radius: 100%;
+    width: 36px;
+    height: 36px;
+}
+
+ .close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /* base modal*/
 .modal {
     display: none;
