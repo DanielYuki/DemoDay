@@ -44,7 +44,8 @@ menuHamburguer.onclick = function() {
     infoContent.classList.remove("opcoesMenuInfo");
 }
 
-menuInfo.onclick = function() {
+menuInfo.onclick = function(e) {
+    e.preventDefault();
     infoContent.classList.toggle("opcoesMenuInfo");
 }
 //--------------------
