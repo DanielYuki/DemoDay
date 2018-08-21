@@ -20,6 +20,7 @@
   padding: 40px 60px;
 }
 .parallax-bg {
+  background-image: url(../imgSrc/bgdestaque.jpg);
   position: absolute;
   left: 0;
   top: 0;
@@ -195,6 +196,7 @@
 
 
 .didUknow{
+
   transform: translateY(-100%);
   transition: 0.1s ease-out;
   display: flex;
