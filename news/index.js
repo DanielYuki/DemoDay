@@ -171,21 +171,3 @@ let span8 = document.getElementsByClassName("close")[7];
 span8.onclick = function () {
     modal8.style.display = "none";
 }
-
-// MODAL IMAGENS 9
-
-let modal9 = document.getElementById('meuModal9');
-let img9 = document.getElementById('materias9');
-let modalImg9 = document.getElementById("img09");
-
-img9.onclick = function () {
-    modal9.style.display = "block";
-    modalImg9.src = img09.src;
-    span9.style.display = "block";
-}
-
-let span9 = document.getElementsByClassName("close")[8];
-
-span9.onclick = function () {
-    modal9.style.display = "none";
-}
