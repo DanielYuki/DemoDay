@@ -146,3 +146,9 @@ p {
 .pictures{
     margin: 10px 1vh;
 }
+
+.pictures img{
+    width: 100px;
+    height: 100px;
+    
+}
