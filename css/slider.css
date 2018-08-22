@@ -1,7 +1,7 @@
 #planetas {
   position: relative;
   width: 100%;
-  height: 300px;
+  height: 375px;
 }
 .swiper-container {
   width: 100%;
@@ -31,12 +31,23 @@
   background-position: center center;
 }
 .swiper-slide .planet-img {
+  margin-top: 10px;
   font-size: 41px;
   font-weight: 300;
 }
-.swiper-slide .planet-name {
-  font-size: 26px;
+
+.planet-name{
+  padding: 10px;
+  margin-top: 15px;
+  background-color:rgba(255, 255, 255, 0.13);
+  border-radius: 35px;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  display: flex;
+  transform: scale(1);
+  transition: 0.5s ease-in-out;
 }
+
 .swiper-slide {
   font-size: 14px;
   max-width: 400px;
@@ -51,12 +62,20 @@
   width: auto;
 }
 
+.planet-img img{
+  transform: scale(1);
+  transition: 0.5s cubic-bezier(0,-0.64,.76,.6);
+  display:  flex;
+  margin-top: 10px;
+}
+
 .mercury{
   justify-content: center;
   display: none;
   align-items: center;
   flex-direction: column;
   width: 100vw;
+
 }
 
 .venus{
@@ -198,13 +217,13 @@
 .didUknow{
 
   transform: translateY(-100%);
-  transition: 0.1s ease-out;
+  transition: 0.5s ease-out;
   display: flex;
 }
 
 .aparece{
   transform: translateY(0%);
-  transition: ease-out 0.2s;
+  transition: ease-out 0.5s;
   display: flex;
 }
 /* ----------------- */

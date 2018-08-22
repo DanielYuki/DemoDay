@@ -73,6 +73,15 @@ menuInfo.onclick = function(e) {
 let modalFatos = document.querySelector(".didUknow");
 
 // PARTE PLANETAS GERAL
+let nomesMercurio = document.querySelector("#nomeMercurio");
+let nomesVenus = document.querySelector("#nomeVenus");
+let nomesTerra = document.querySelector("#nomeTerra");
+let nomesMarte = document.querySelector("#nomeMarte");
+let nomesJupiter = document.querySelector("#nomeJupiter");
+let nomesSaturno = document.querySelector("#nomeSaturno");
+let nomesUrano = document.querySelector("#nomeUrano");
+let nomesNetuno = document.querySelector("#nomeNetuno");
+
 let mercurio = document.querySelector("#mercurio");
 let venus = document.querySelector("#venus");
 let terra = document.querySelector("#terra");
@@ -104,13 +113,34 @@ function remover() {
     document.querySelector(".uranus").style.display = ("none");
     document.querySelector(".neptune").style.display = ("none");
     modalFatos.classList.remove("aparece");
+
+    mercurio.style.transform = ("scale(1)");
+    venus.style.transform = ("scale(1)");
+    terra.style.transform = ("scale(1)");
+    marte.style.transform = ("scale(1)");
+    jupiter.style.transform = ("scale(1)");
+    saturno.style.transform = ("scale(1)");
+    urano.style.transform = ("scale(1)");
+    netuno.style.transform = ("scale(1)");
+
+    nomesMercurio.style.transform = ("scale(1)");
+    nomesVenus.style.transform = ("scale(1)");
+    nomesTerra.style.transform = ("scale(1)");
+    nomesMarte.style.transform = ("scale(1)");
+    nomesJupiter.style.transform = ("scale(1)");
+    nomesSaturno.style.transform = ("scale(1)");
+    nomesUrano.style.transform = ("scale(1)");
+    nomesNetuno.style.transform = ("scale(1)");
+
     ativo = false;
 }
 
-function apareceMercurio() {
+function apareceMercurio() {   
     if(ativo == false){
         modalFatos.classList.add("aparece");
         document.querySelector(".mercury").style.display = ("flex");
+        mercurio.style.transform = ("scale(1.2)");
+        nomesMercurio.style.transform = ("scale(0)");
         ativo = true;
     }
     else{
@@ -122,6 +152,8 @@ function apareceVenus() {
     if(ativo == false){
         modalFatos.classList.add("aparece");
         document.querySelector(".venus").style.display = ("flex");
+        venus.style.transform = ("scale(1.2)");
+        nomesVenus.style.transform = ("scale(0)");
         ativo = true;
     }
     else{
@@ -133,6 +165,8 @@ function apareceTerra() {
     if(ativo == false){
         modalFatos.classList.add("aparece");
         document.querySelector(".earth").style.display = ("flex");
+        terra.style.transform = ("scale(1.2)");
+        nomesTerra.style.transform = ("scale(0)");
         ativo = true;
     }
     else{
@@ -144,6 +178,8 @@ function apareceMarte() {
     if(ativo == false){
         modalFatos.classList.add("aparece");
         document.querySelector(".mars").style.display = ("flex");
+        marte.style.transform = ("scale(1.2)");
+        nomesMarte.style.transform = ("scale(0)");
         ativo = true;
     }
     else{
@@ -155,6 +191,8 @@ function apareceJupiter() {
     if(ativo == false){
         modalFatos.classList.add("aparece");
         document.querySelector(".jupiter").style.display = ("flex");
+        jupiter.style.transform = ("scale(1.2)");
+        nomesJupiter.style.transform = ("scale(0)");
         ativo = true;
     }
     else{
@@ -166,6 +204,8 @@ function apareceSaturno() {
     if(ativo == false){
         modalFatos.classList.add("aparece");
         document.querySelector(".saturn").style.display = ("flex");
+        saturno.style.transform = ("scale(1.2)");
+        nomesSaturno.style.transform = ("scale(0)");
         ativo = true;
     }
     else{
@@ -177,6 +217,8 @@ function apareceUrano() {
     if(ativo == false){
         modalFatos.classList.add("aparece");
         document.querySelector(".uranus").style.display = ("flex");
+        urano.style.transform = ("scale(1.2)");
+        nomesUrano.style.transform = ("scale(0)");
         ativo = true;
     }
     else{
@@ -188,6 +230,8 @@ function apareceNetuno() {
     if(ativo == false){
         modalFatos.classList.add("aparece");
         document.querySelector(".neptune").style.display = ("flex");
+        netuno.style.transform = ("scale(1.2)");
+        nomesNetuno.style.transform = ("scale(0)");
         ativo = true;
     }
     else{
