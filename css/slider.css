@@ -195,7 +195,7 @@
   width: 95%;
   border-bottom: rgb(153, 134, 108) solid 2px;
   margin: 10px 0;
-  height: 65vw;
+  height: auto;
 }
 
 .fatos .numero{
@@ -206,6 +206,7 @@
   border: 0;
   font-size: 5vw;
   margin: 10px;
+  text-transform: uppercase;
 }
 
 .fatos p{

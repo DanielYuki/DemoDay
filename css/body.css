@@ -1,8 +1,8 @@
 body{
-    background-image: url(../imgSrc/bgdestaque.jpg);
+    background-image: url(../imgSrc/background.jpg);
     background-position: center center;
     background-repeat: repeat;
-    background-size: cover;
+    background-size: auto;
     margin: 0;
     width: 100vw;
     height: auto;
