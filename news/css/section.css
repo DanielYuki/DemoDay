@@ -176,7 +176,6 @@ article{
     flex-direction: column;
     margin: 10px 1vh;
     padding: 0 10px;
-    border: 2px solid white;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.205);
     color: rgb(196, 196, 196);
@@ -243,7 +242,9 @@ article:focus {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  background: url(../../imgSrc/bgdestaque.jpg);
+  color: rgb(173, 173, 173);
 }
 
 .modal h3 {
@@ -309,4 +310,27 @@ article:focus {
   .conteudoModal {
     width: 100%;
   }
+}
+
+
+.subir {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  font-size: 10vw;
+  color: white;
+  text-decoration: none;
+  bottom: 0;
+  background-color: rgba(4, 0, 20, 0.377);
+  padding: 10px;
+}
+
+.trianglim-top {
+  width: 0;
+  height: 0;
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+  /* border-bottom: 35px solid rgb(255, 255, 255); */
+  border-bottom: 35px solid rgb(12, 62, 100);
 }
