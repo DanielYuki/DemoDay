@@ -81,11 +81,13 @@
   height: 0;
   border-left: 45px solid transparent;
   border-right: 45px solid transparent;
-  border-bottom: 35px solid rgb(255, 255, 255);
+  /* border-bottom: 35px solid rgb(255, 255, 255); */
+  border-bottom: 35px solid rgb(12, 62, 100);
 }
 
 .didUknowContent {
-  background-color: white;
+  background: linear-gradient(#0D3F64, #0C2F49);
+  /* background-color: white; */
   border-radius: 10px;
   width: 90%;
   height: auto;
@@ -95,6 +97,7 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
+  color: white;
 }
 
 .didUknowContent h2 {
