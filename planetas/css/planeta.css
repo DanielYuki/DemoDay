@@ -192,7 +192,14 @@ p {
 
 .pictures {
   margin: 10px 1vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
 }
+
 .pictures img {
-  max-width: 100px;
+  width: 40vw;
+  margin: 5px;
+  height: 40vw;
 }
