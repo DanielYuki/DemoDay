@@ -144,6 +144,7 @@ section {
 }
 
 article {
+  width: 98%;
   text-align: center;
   display: flex;
   align-items: center;
