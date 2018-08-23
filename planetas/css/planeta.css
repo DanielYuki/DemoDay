@@ -1,0 +1,155 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.visao-geral {
+  height: 100vh;
+  min-height: 740px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.fichatecnica {
+  font-family: serif;
+  font-size: 1.1em;
+  width: 70%;
+  max-width: 400px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  padding-left: 5px;
+  background-image: linear-gradient(to right, rgba(13, 63, 100, 0.8), #0c2f49);
+  /* background-image: linear-gradient(to right, rgba(78, 85, 87, 1), white); */
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+.fichatecnica::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin-left: -1px;
+  height: 100%;
+  width: 130px;
+  background-image: url(../../imgSrc/borda.svg);
+  background-position: right center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.parallax1 {
+  flex: 1;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 40px 0 80px rgba(0, 0, 0, 0.4);
+}
+.parallax2 {
+  height: 300px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2 {
+  text-align: center;
+  font-size: 20pt;
+}
+
+.gif {
+  width: 100%;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.planetagif {
+  max-width: 50%;
+  min-width: 170px;
+}
+.dados {
+  flex: 2;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 0 auto;
+  z-index: 1;
+  text-align: left;
+}
+.dado {
+  display: inline-block;
+  max-width: 100%;
+  padding: 1px 4px;
+  background: rgba(87, 87, 156, 0.459);
+  border-bottom: rgb(7, 3, 27) solid 1px;
+}
+.dado strong {
+  color: rgb(7, 3, 27);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
+  font-weight: bold;
+  margin-right: 3px;
+}
+
+article {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.205);
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 10px;
+  color: white;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(42, 199, 219);
+  text-shadow: -1px 0 0 rgba(28, 91, 142, 1);
+}
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0.5em 0;
+}
+h3 {
+  font-size: 20pt;
+}
+h4 {
+  font-size: 20pt;
+  margin: 0.5em 0;
+}
+h5 {
+  font-size: 20pt;
+}
+h6 {
+  font-size: 20pt;
+}
+p {
+  text-shadow: 1px 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.pictures {
+  margin: 10px 1vh;
+}
+.pictures img {
+  max-width: 100px;
+}
