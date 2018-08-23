@@ -101,7 +101,7 @@ section {
   }
 }
 /* ______________SLIDE___________ */
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .parallax1 {
     background-image: url(../../imgSrc/solarsystem.jpg);
     height: 250px;
@@ -139,10 +139,10 @@ section {
         background-repeat: no-repeat;
         background-size: cover;
     }
-} */
+}
 
 /* PARA VIDEO APENAS */
-.parallax1 {
+/* .parallax1 {
     background-image: url(../../imgSrc/solarsystem.jpg);
     height: 250px;
     width: 100%;
@@ -159,7 +159,7 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 
 .titulo{

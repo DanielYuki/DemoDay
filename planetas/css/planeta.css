@@ -47,7 +47,7 @@ section {
 
 /* PARALAX COMETAR P/VIDEO */
 
-.parallax1 {
+/* .parallax1 {
   flex: 1;
   height: 100%;
   background-attachment: fixed;
@@ -63,9 +63,9 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .parallax1 {
     flex: 1;
     height: 100%;
@@ -102,7 +102,7 @@ section {
         background-repeat: no-repeat;
         background-size: cover;
     }
-} */
+}
 
 
 h2 {
