@@ -1,59 +1,61 @@
-section{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100%;
-    margin: 30px 0;
-    width: 98%;
-    background-color: rgba(255, 255, 255, 0.055);
-    border-radius: 5px;
-    overflow: hidden;
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  margin: 30px 0;
+  width: 98%;
+  background-color: rgba(255, 255, 255, 0.055);
+  border-radius: 5px;
+  overflow: hidden;
 }
 
-article{
-    margin: 10px 0;
-    border: 2px solid white;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.1);
-    width: 90vw;
-    height: 15vh;
-    overflow: hidden;
-    box-shadow: 4px 5px rgba(0, 0, 0, 0.11);
+article {
+  margin: 10px 0;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 96%;
+  padding: 1em 0;
+  overflow: hidden;
+  box-shadow: 4px 5px rgba(0, 0, 0, 0.11);
 }
 
-section h2{
-    margin: 20px 0;
-    color: white;
-    font-size: 9vw;
-    text-shadow: 3px 3px rgba(0, 0, 0, 0.116);
+section h2 {
+  margin: 20px 0;
+  color: white;
+  font-size: 9vw;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.116);
 }
 
-section h3{
-    color: rgb(5, 133, 150);
-    margin: 5px 0;
-    font-size: 7vw;
+section h3 {
+  color: rgb(5, 133, 150);
+  margin: 5px 0;
+  font-size: 7vw;
 }
 
-section p{
-    margin: 0;
-    font-size: 5vw;
-    color: rgb(172, 172, 172);
+section p {
+  margin: 0;
+  font-size: 5vw;
+  color: rgb(172, 172, 172);
 }
 
 .materias {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-#materias:hover {opacity: 0.7;}
+#materias:hover {
+  opacity: 0.7;
+}
 
 /*--ANIMACAO--*/
 /* .close {
@@ -81,73 +83,77 @@ section p{
 
 /* base modal*/
 .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    height: 100vh;
-    background: url(../imgSrc/bgdestaque.jpg);
-    color: rgb(173, 173, 173);
-    z-index: 3;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  height: 100vh;
+  background: url(../imgSrc/bgdestaque.jpg);
+  color: rgb(173, 173, 173);
+  z-index: 3;
 }
 
-.modal h3{
-    margin: 15px;
-    font-size: 8vw;
+.modal h3 {
+  margin: 15px;
+  font-size: 8vw;
 }
 
-.descricao{
-    margin: 0 10px;
-    width: auto;
-    font-size: 6vw;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.descricao {
+  margin: 0 10px;
+  width: auto;
+  font-size: 6vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.descricao p{
-    margin: 10px 0;
+.descricao p {
+  margin: 10px 0;
 }
 
-.subir{
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-    font-size: 10vw;
-    color: white;
-    text-decoration: none;
-    bottom: 0;
-    background-color: rgba(4, 0, 20, 0.377);
-    padding: 10px;
+.subir {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  font-size: 10vw;
+  color: white;
+  text-decoration: none;
+  bottom: 0;
+  background-color: rgba(4, 0, 20, 0.377);
+  padding: 10px;
 }
 
 /* conteudo modal */
 .conteudoModal {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
 }
 
 /*ANIMACAO*/
-.conteudoModal{ 
-    animation-name: zoom;
-    animation-duration: 0.5s;
+.conteudoModal {
+  animation-name: zoom;
+  animation-duration: 0.5s;
 }
 
 @keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 /*gambiarra da net*/
-@media only screen and (max-width: 700px){
-    .conteudoModal {
-        width: 100%;
-    }
+@media only screen and (max-width: 700px) {
+  .conteudoModal {
+    width: 100%;
+  }
 }

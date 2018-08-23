@@ -14,7 +14,7 @@
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  color:#fff;
+  color: #fff;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 40px 60px;
@@ -36,49 +36,39 @@
   font-weight: 300;
 }
 
-.planet-name{
+.planet-name {
   padding: 10px;
   margin-top: 15px;
-  background-color:rgba(255, 255, 255, 0.13);
+  background-color: rgba(255, 255, 255, 0.13);
   border-radius: 35px;
   font-size: 2em;
   color: rgb(255, 255, 255);
   display: flex;
-  transform: scale(1);
-  transition: 0.5s ease-in-out;
 }
-
+.planet-name-fade {
+  transform: scale(1);
+  transition: 0.5s ease-in-out !important;
+}
 .swiper-slide {
   font-size: 14px;
   max-width: 400px;
   line-height: 1.3;
 }
 
-
-
 /* QUICKINFO-PLANETS */
-.didUknow{
+.didUknow {
   margin: 0;
   width: auto;
 }
 
-.planet-img img{
+.planet-img img {
   transform: scale(1);
-  transition: 0.5s cubic-bezier(0,-0.64,.76,.6);
-  display:  flex;
+  transition: 0.5s cubic-bezier(0, -0.64, 0.76, 0.6);
+  display: flex;
   margin-top: 10px;
 }
 
-.mercury{
-  justify-content: center;
-  display: none;
-  align-items: center;
-  flex-direction: column;
-  width: 100vw;
-
-}
-
-.venus{
+.didUknow-modal {
   justify-content: center;
   display: none;
   align-items: center;
@@ -86,63 +76,15 @@
   width: 100vw;
 }
 
-.earth{
-  justify-content: center;
-  display: none;
-  align-items: center;
-  flex-direction: column;
-  width: 100vw;
-}
-
-.mars{
-  justify-content: center;
-  display: none;
-  align-items: center;
-  flex-direction: column;
-  width: 100vw;
-}
-
-.jupiter{
-  justify-content: center;
-  display: none;
-  align-items: center;
-  flex-direction: column;
-  width: 100vw;
-}
-
-.saturn{
-  justify-content: center;
-  display: none;
-  align-items: center;
-  flex-direction: column;
-  width: 100vw;
-}
-
-.uranus{
-  justify-content: center;
-  display: none;
-  align-items: center;
-  flex-direction: column;
-  width: 100vw;
-}
-
-.neptune{
-  justify-content: center;
-  display: none;
-  align-items: center;
-  flex-direction: column;
-  width: 100vw;
-}
-
-.trianglim-top{
-  width: 0; 
-  height: 0; 
+.trianglim-top {
+  width: 0;
+  height: 0;
   border-left: 45px solid transparent;
   border-right: 45px solid transparent;
   border-bottom: 35px solid rgb(255, 255, 255);
 }
 
-.didUknowContent{
+.didUknowContent {
   background-color: white;
   border-radius: 10px;
   width: 90%;
@@ -155,17 +97,17 @@
   flex-direction: column;
 }
 
-.didUknowContent h2{
+.didUknowContent h2 {
   font-size: 7vw;
   border-bottom: black solid 2px;
   margin: 5px 10px;
 }
 
-.didUknowContent span{
+.didUknowContent span {
   font-size: 10vw;
 }
 
-.didUknowContent button{
+.didUknowContent button {
   background-color: rgba(116, 116, 116, 0.445);
   color: rgb(0, 0, 0);
   font-size: 16px;
@@ -175,7 +117,7 @@
   margin-bottom: 10px;
 }
 
-.numero{
+.numero {
   justify-content: center;
   align-items: center;
   display: flex;
@@ -187,7 +129,7 @@
   margin: 0;
 }
 
-.fatos{
+.fatos {
   justify-content: start;
   align-items: center;
   display: flex;
@@ -198,31 +140,29 @@
   height: auto;
 }
 
-.fatos .numero{
+.fatos .numero {
   border: 0;
 }
 
-.fatos .titulo{
+.fatos .titulo {
   border: 0;
   font-size: 5vw;
   margin: 10px;
   text-transform: uppercase;
 }
 
-.fatos p{
+.fatos p {
   margin: 0 0 20px;
   font-size: 5vw;
 }
 
-
-.didUknow{
-
+.didUknow {
   transform: translateY(-100%);
   transition: 0.5s ease-out;
   display: flex;
 }
 
-.aparece{
+.aparece {
   transform: translateY(0%);
   transition: ease-out 0.5s;
   display: flex;
