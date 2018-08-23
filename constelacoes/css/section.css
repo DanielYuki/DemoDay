@@ -2,12 +2,54 @@ section{
     justify-content: space-evenly;
     align-items: center;
     display: flex;
+    flex-direction: column;
     background-color: rgba(255, 255, 255, 0.021);
     flex-wrap: wrap;
-    margin: 50px 0;
+    margin: 50px 0 0 0;
     color: white;
     text-align: center;
 }
+
+.destaque{
+    background-color: rgba(250, 235, 215, 0);
+    height: 100%;
+}
+
+.destaque h2{
+    margin: 25px 0 50px 0;
+    font-size: 15vw;
+    color: rgb(5, 133, 150);
+}
+
+.destaque img {
+    animation: float 8s linear infinite;
+  }
+
+  @keyframes float {
+    0% {
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      transform: translate(0, 0);
+      transform: rotate(0);
+    }
+    20% {
+      transform: translate(15px, -30px);
+      transform: rotate(7deg);
+    }
+    50% {
+      box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+      transform: translate(0, -70px);
+    }
+    80% {
+      transform: translate(-20px, -25px);
+      transform: rotate(-7deg);
+    }
+    100% {
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      transform: translate(0, 0);
+      transform: rotate(0);
+    }
+  }
+  
 
 article{
     margin: 10px;
